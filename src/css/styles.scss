@@ -1,0 +1,132 @@
+@import "./media.scss";
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap");
+
+$theme-colors: (
+  "black": #000000,
+  "white": #ffffff,
+  "accent": #ec3e3e,
+  "accent-hover": #bd1313,
+  "K900": #24292d,
+  "K700": #696f74,
+  "K600": #83898e,
+  "K500": #9da3a8,
+  "K400": #b5bbc0,
+  "K300": #ced3d6,
+  "K150": #edeef0,
+  "K100": #f7f8f9,
+);
+
+:root {
+  // Generate hex/rgb CSS vars for default/rgba usage, respectively
+  @function hexToRGB($hex) {
+    @return red($hex), green($hex), blue($hex);
+  }
+  @each $name, $color in $theme-colors {
+    --#{$name}: #{$color};
+    --#{$name}-rgb: #{hexToRGB($color)};
+  }
+
+  --font-body: "Red Hat Display", sans-serif;
+  --font-heading: "Red Hat Display", sans-serif;
+
+  --box-shadow-300: 1px 2px 10px rgba(0, 0, 0, 0.08);
+  --box-shadow-600: 1px 2px 10px rgba(0, 0, 0, 0.04),
+    6px 16px 30px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  margin: 0;
+
+  background: var(--white);
+
+  font-family: var(--font-body);
+  line-height: 1;
+}
+
+.main {
+  padding: 200px 120px 60px 200px;
+  min-height: 100vh;
+  // display: flex;
+
+  // .chapter{}
+}
+
+h2 {
+  margin-bottom: 30px;
+
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--K800);
+}
+h4 {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--K400);
+}
+
+p {
+  font-size: 18px;
+  color: var(--K800);
+  line-height: 1.8;
+}
+
+.nav {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  gap: 30px;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    &__buttons {
+      display: flex;
+      gap: 12px;
+    }
+
+    &__label {
+      font-size: 14px;
+      color: var(--K600);
+    }
+  }
+}
+
+.btn {
+  transition: 0.25s ease background;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+
+  border: unset;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05), 2px 4px 8px rgba(0, 0, 0, 0.05);
+
+  svg path {
+    transition: 0.25s ease fill;
+    fill: var(--K800);
+  }
+
+  &:hover {
+    background: var(--K100);
+
+    svg path {
+      fill: var(--accent);
+    }
+  }
+}
