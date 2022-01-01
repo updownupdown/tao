@@ -7,12 +7,12 @@ type ValueOf<T> = T[keyof T];
 
 export const Translations = {
   Riley: "riley",
-  // Johnson: "Johnson",
+  Johnson: "Johnson",
 };
 
 export const Mapping = {
   riley: Riley,
-  // johnson: Johnson,
+  johnson: Johnson,
 };
 
 export type TranslationsList = ValueOf<typeof Translations>;
