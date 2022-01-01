@@ -5,7 +5,7 @@ import Grid from "./components/Grid/Grid";
 import Names from "./components/Translations/Names";
 import { Translations } from "./components/Translations/Translations";
 
-// import { Parser } from "./components/Translations/parser";
+import { Parser } from "./components/Translations/parser";
 
 function App() {
   const [chapter, setChapter] = useState(1);
@@ -125,7 +125,7 @@ function App() {
         showChapters={showChapters}
         showTranslations={showTranslations}
       />
-      {/* <Parser /> */}
+      <Parser />
     </div>
   );
 }

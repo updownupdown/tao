@@ -1,6 +1,7 @@
 import React from "react";
 import { Original } from "../Translations/Original";
 import ReactTooltip from "react-tooltip";
+import "./Chapter.scss";
 // import { TranslationProps } from "../Translations/Translations";
 
 // export const hanzi = require("hanzi");
@@ -42,21 +43,37 @@ const Chapter = ({
 
     const splitText = originalText.content.split("");
 
-    const charactersWithoutDefinitions = ["", " ", "\n", "，", "；", "。"];
+    const charactersWithoutDefinitions = [
+      "",
+      " ",
+      "\n",
+      "，",
+      "；",
+      "。",
+      "！",
+      "？",
+      "：",
+    ];
 
     return (
-      <p>
-        {splitText.map((txt, index) => {
-          if (charactersWithoutDefinitions.includes(txt)) return txt;
+      <>
+        <h4>{originalText.title}</h4>
+        <p>
+          {splitText.map((txt, index) => {
+            // if (charactersWithoutDefinitions.includes(txt)) return txt;
 
-          // const definition = lookupCharacter(txt);
+            // const definition = lookupCharacter(txt);
 
-          return (
-            // <span key={index} data-tip={definition}>
-            <span key={index}>{txt}</span>
-          );
-        })}
-      </p>
+            return (
+              // <span key={index} data-tip={definition}>
+              <>
+                <span key={index}>{txt}</span>
+                {txt === "。" && <br />}
+              </>
+            );
+          })}
+        </p>
+      </>
     );
   }
 

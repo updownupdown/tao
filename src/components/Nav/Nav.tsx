@@ -5,6 +5,7 @@ import ArrowRight from "./ArrowRight";
 import ArrowUp from "./ArrowUp";
 import Apps from "./Apps";
 import Menu from "./Menu";
+import "./Nav.scss";
 
 interface Props {
   chapterPrev: () => void;
@@ -26,33 +27,33 @@ const Nav = ({
   return (
     <div className="nav">
       <div className="nav__group">
+        <span className="nav__group__label">Chapters</span>
         <div className="nav__group__buttons">
-          <button className="btn" onClick={chapterPrev}>
+          <button className="nav-btn" onClick={chapterPrev}>
             <ArrowLeft />
           </button>
-          <button className="btn" onClick={showChapters}>
+          <button className="nav-btn" onClick={showChapters}>
             <Apps />
           </button>
-          <button className="btn" onClick={chapterNext}>
+          <button className="nav-btn" onClick={chapterNext}>
             <ArrowRight />
           </button>
         </div>
-        <span className="nav__group__label">Chapters</span>
       </div>
 
       <div className="nav__group">
+        <span className="nav__group__label">Translations</span>
         <div className="nav__group__buttons">
-          <button className="btn" onClick={translationPrev}>
+          <button className="nav-btn" onClick={translationPrev}>
             <ArrowDown />
           </button>
-          <button className="btn" onClick={showTranslations}>
+          <button className="nav-btn" onClick={showTranslations}>
             <Menu />
           </button>
-          <button className="btn" onClick={translationNext}>
+          <button className="nav-btn" onClick={translationNext}>
             <ArrowUp />
           </button>
         </div>
-        <span className="nav__group__label">Translations</span>
       </div>
     </div>
   );

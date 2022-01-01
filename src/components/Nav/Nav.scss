@@ -1,0 +1,73 @@
+@import "../../css/media.scss";
+
+.nav {
+  pointer-events: none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 80px;
+
+  background: linear-gradient(
+    to top,
+    rgba(var(--white-rgb), 0.95),
+    rgba(var(--white-rgb), 0.95),
+    rgba(var(--white-rgb), 0)
+  );
+
+  @media #{$query-min-md} {
+    padding-bottom: 20px;
+  }
+  @media #{$query-max-md} {
+    padding-bottom: 12px;
+  }
+
+  &__group {
+    pointer-events: all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    &__buttons {
+      display: flex;
+      gap: 12px;
+    }
+
+    &__label {
+      font-size: 14px;
+      color: var(--K600);
+    }
+  }
+}
+
+.nav-btn {
+  transition: 0.25s ease background;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+
+  border: unset;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05), 2px 4px 8px rgba(0, 0, 0, 0.05);
+
+  svg path {
+    transition: 0.25s ease fill;
+    fill: var(--K800);
+  }
+
+  &:hover {
+    background: var(--K100);
+
+    svg path {
+      fill: var(--accent);
+    }
+  }
+}

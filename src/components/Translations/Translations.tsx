@@ -3,6 +3,9 @@ import { text as Bynner } from "./list/Bynner";
 import { text as Lombardo } from "./list/Lombardo";
 import { text as Lau } from "./list/Lau";
 import { text as Blakney } from "./list/Blakney";
+import { text as Suzuki } from "./list/Suzuki";
+import { text as Legge } from "./list/Legge";
+import { text as Goddard } from "./list/Goddard";
 
 export interface TranslationProps {
   name: string;
@@ -38,5 +41,20 @@ export const Translations = [
   {
     name: "Witter Bynner",
     component: Bynner,
+  },
+  {
+    name: "D.T. Suzuki & Paul Carus",
+    date: 1913,
+    component: Suzuki,
+  },
+  {
+    name: "James Legge",
+    date: 1891,
+    component: Legge,
+  },
+  {
+    name: "Dwight Goddard",
+    date: 1919,
+    component: Goddard,
   },
 ];

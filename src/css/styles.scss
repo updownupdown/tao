@@ -1,11 +1,11 @@
 @import "./media.scss";
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500&display=swap");
 
 $theme-colors: (
   "black": #000000,
   "white": #ffffff,
-  "accent": #ec3e3e,
-  "accent-hover": #bd1313,
+  "accent": #c3121a,
+  "accent-hover": #b80f17,
   "K900": #24292d,
   "K800": #4e5256,
   "K700": #696f74,
@@ -30,6 +30,8 @@ $theme-colors: (
 
   --font-body: "Red Hat Display", sans-serif;
   --font-heading: "Red Hat Display", sans-serif;
+  // --font-chinese: "Noto Serif TC", serif;
+  --font-chinese: "Noto Sans TC", serif;
 
   --box-shadow-300: 1px 2px 10px rgba(0, 0, 0, 0.08);
   --box-shadow-600: 1px 2px 10px rgba(0, 0, 0, 0.04),
@@ -56,134 +58,10 @@ button {
 }
 
 .main {
-  padding: 200px 20px;
+  padding: 200px 40px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-
-  .chapter {
-    display: flex;
-    gap: 80px;
-    width: 1000px;
-    max-width: 100%;
-
-    &__translation {
-      flex: 2;
-
-      h2 {
-        transition: 0.25s ease color;
-        cursor: pointer;
-        margin-bottom: 30px;
-
-        font-size: 46px;
-        font-weight: 700;
-        color: var(--K800);
-
-        &:hover {
-          color: var(--accent);
-        }
-      }
-      h4 {
-        transition: 0.25s ease color;
-        cursor: pointer;
-        margin-bottom: 10px;
-
-        font-size: 16px;
-        font-weight: 500;
-        color: var(--K400);
-
-        &:hover {
-          color: var(--accent);
-        }
-      }
-
-      p {
-        white-space: pre-line;
-
-        font-size: 18px;
-
-        line-height: 1.8;
-      }
-    }
-
-    &__original {
-      flex: 1;
-
-      .original {
-        margin-top: 80px;
-
-        p {
-          font-size: 22px;
-          line-height: 1.8;
-          letter-spacing: 8px;
-        }
-      }
-    }
-
-    p {
-      white-space: pre-line;
-      color: var(--K800);
-
-      &.empty-text {
-        font-size: 18px;
-        color: var(--K400);
-        letter-spacing: 0;
-      }
-    }
-  }
-}
-
-.nav {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  display: flex;
-  gap: 30px;
-
-  &__group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-
-    &__buttons {
-      display: flex;
-      gap: 12px;
-    }
-
-    &__label {
-      font-size: 14px;
-      color: var(--K600);
-    }
-  }
-}
-
-.btn {
-  transition: 0.25s ease background;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-
-  border: unset;
-  background: var(--white);
-  border-radius: 50%;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05), 2px 4px 8px rgba(0, 0, 0, 0.05);
-
-  svg path {
-    transition: 0.25s ease fill;
-    fill: var(--K800);
-  }
-
-  &:hover {
-    background: var(--K100);
-
-    svg path {
-      fill: var(--accent);
-    }
-  }
 }
 
 .overlay {
@@ -198,80 +76,6 @@ button {
 
   background: rgba(var(--white-rgb), 0.85);
   backdrop-filter: blur(4px);
-}
-
-.grid {
-  position: fixed;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  width: 800px;
-  max-width: 90%;
-  aspect-ratio: 1;
-
-  transform: translateX(-50%) translateY(-50%);
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-
-  .grid-btn {
-    transition: 0.1s ease all;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: unset;
-    border-radius: 4px;
-    background: transparent;
-
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--K800);
-
-    &--current,
-    &:hover {
-      background: rgba(var(--K800-rgb), 0.06);
-      color: var(--accent);
-    }
-  }
-}
-
-.names {
-  position: fixed;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  width: 800px;
-  max-width: 90%;
-  aspect-ratio: 1;
-
-  transform: translateX(-50%) translateY(-50%);
-  display: flex;
-  flex-direction: column;
-
-  .names-btn {
-    transition: 0.1s ease all;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    // justify-content: center;
-    height: 50px;
-    padding: 0 20px;
-
-    border: unset;
-    border-radius: 4px;
-    background: transparent;
-
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--K800);
-
-    &--current,
-    &:hover {
-      background: rgba(var(--K800-rgb), 0.06);
-      color: var(--accent);
-    }
-  }
 }
 
 .tooltip-tao {

@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import { Translations } from "./Translations";
+import "./Names.scss";
 
 interface Props {
   selectTranslation: (newChapter: number) => void;

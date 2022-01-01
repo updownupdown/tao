@@ -1,0 +1,35 @@
+.grid {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  max-width: 90%;
+  aspect-ratio: 1;
+
+  transform: translateX(-50%) translateY(-50%);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+
+  .grid-btn {
+    transition: 0.1s ease all;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: unset;
+    border-radius: 4px;
+    background: transparent;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--K800);
+
+    &--current,
+    &:hover {
+      background: rgba(var(--K800-rgb), 0.06);
+      color: var(--accent);
+    }
+  }
+}
