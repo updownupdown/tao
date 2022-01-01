@@ -1,18 +1,34 @@
+import { Mitchell } from "./list/Mitchell";
 import { Riley } from "./list/Riley";
 import { Johnson } from "./list/Johnson";
+import { JohnsonTwo } from "./list/JohnsonTwo";
 
-const Merged = { ...Riley, ...Johnson };
+export interface TranslationProps {
+  name: string;
+  date?: number;
+  component: React.ReactNode;
+}
 
-type ValueOf<T> = T[keyof T];
+interface Props {
+  translations: TranslationProps[];
+}
 
-export const Translations = {
-  Riley: "riley",
-  Johnson: "Johnson",
-};
-
-export const Mapping = {
-  riley: Riley,
-  johnson: Johnson,
-};
-
-export type TranslationsList = ValueOf<typeof Translations>;
+export const Translations = [
+  {
+    name: "Stephen Mitchell",
+    date: 1988,
+    component: Mitchell,
+  },
+  {
+    name: "Paul C. Riley",
+    component: Riley,
+  },
+  {
+    name: "John Johnson",
+    component: Johnson,
+  },
+  {
+    name: "John Johnson 2",
+    component: JohnsonTwo,
+  },
+];

@@ -1,8 +1,8 @@
-export const Johnson = [
+export const JohnsonTwo = [
   {
     chapter: 1,
     content:
-      "The tao thatsd fgsdfgsdfgsdfgon.\nFreed from desire, you can see the hidden mystery.\nBy having desire, you can only see what is visibly real.\nYet mystery and reality emerge from the same source.\nThis source is called darkness.\nDarkness born from darkness.\nThe beginning of all understanding.",
+      "The tao thatsdgs dfgsdf gsdfghat is visibly real.\nYet mystery and reality emerge from the same source.\nThis source is called darkness.\nDarkness born from darkness.\nThe beginning of all understanding.",
   },
   {
     chapter: 2,

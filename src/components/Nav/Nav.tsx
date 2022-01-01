@@ -3,12 +3,15 @@ import ArrowDown from "./ArrowDown";
 import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
 import ArrowUp from "./ArrowUp";
+import Grid from "./Grid";
 
 interface Props {
   chapterPrev: () => void;
   chapterNext: () => void;
   translationPrev: () => void;
   translationNext: () => void;
+  showChapters: () => void;
+  showTranslations: () => void;
 }
 
 const Nav = ({
@@ -16,6 +19,8 @@ const Nav = ({
   chapterNext,
   translationPrev,
   translationNext,
+  showChapters,
+  showTranslations,
 }: Props) => {
   return (
     <div className="nav">
@@ -23,6 +28,9 @@ const Nav = ({
         <div className="nav__group__buttons">
           <button className="btn" onClick={chapterPrev}>
             <ArrowLeft />
+          </button>
+          <button className="btn" onClick={showChapters}>
+            <Grid />
           </button>
           <button className="btn" onClick={chapterNext}>
             <ArrowRight />
@@ -34,10 +42,13 @@ const Nav = ({
       <div className="nav__group">
         <div className="nav__group__buttons">
           <button className="btn" onClick={translationPrev}>
-            <ArrowUp />
+            <ArrowDown />
+          </button>
+          <button className="btn" onClick={showTranslations}>
+            <Grid />
           </button>
           <button className="btn" onClick={translationNext}>
-            <ArrowDown />
+            <ArrowUp />
           </button>
         </div>
         <span className="nav__group__label">Translations</span>

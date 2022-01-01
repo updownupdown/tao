@@ -49,12 +49,20 @@ body {
   line-height: 1;
 }
 
-.main {
-  padding: 200px 120px 60px 200px;
-  min-height: 100vh;
-  // display: flex;
+button {
+  font-family: var(--font-body);
+}
 
-  // .chapter{}
+.main {
+  padding: 200px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .chapter {
+    width: 800px;
+    max-width: 100%;
+  }
 }
 
 h2 {
@@ -62,7 +70,7 @@ h2 {
 
   font-size: 40px;
   font-weight: 700;
-  color: var(--K800);
+  color: var(--K700);
 }
 h4 {
   margin-bottom: 10px;
@@ -73,9 +81,15 @@ h4 {
 }
 
 p {
+  white-space: pre-line;
+
   font-size: 18px;
-  color: var(--K800);
+  color: var(--K700);
   line-height: 1.8;
+
+  .chapter-error {
+    color: var(--K400);
+  }
 }
 
 .nav {
@@ -119,7 +133,7 @@ p {
 
   svg path {
     transition: 0.25s ease fill;
-    fill: var(--K800);
+    fill: var(--K700);
   }
 
   &:hover {
@@ -127,6 +141,92 @@ p {
 
     svg path {
       fill: var(--accent);
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(var(--white-rgb), 0.8);
+  backdrop-filter: blur(3px);
+}
+
+.grid {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  max-width: 90%;
+  aspect-ratio: 1;
+
+  transform: translateX(-50%) translateY(-50%);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+
+  .grid-btn {
+    transition: 0.1s ease all;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: unset;
+    border-radius: 4px;
+    background: transparent;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--K700);
+
+    &--current,
+    &:hover {
+      background: rgba(var(--K700-rgb), 0.06);
+      color: var(--accent);
+    }
+  }
+}
+
+.names {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  max-width: 90%;
+  aspect-ratio: 1;
+
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  flex-direction: column;
+
+  .names-btn {
+    transition: 0.1s ease all;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    height: 50px;
+    padding: 0 20px;
+
+    border: unset;
+    border-radius: 4px;
+    background: transparent;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--K700);
+
+    &--current,
+    &:hover {
+      background: rgba(var(--K700-rgb), 0.06);
+      color: var(--accent);
     }
   }
 }
