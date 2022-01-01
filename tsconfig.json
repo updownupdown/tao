@@ -16,9 +16,6 @@
     "noImplicitAny": true,
     "noEmit": true,
     "jsx": "react-jsx"
-    // "paths": {
-    //   "testUtils": ["./src/test/testUtils.tsx"]
-    // }
   },
   "include": ["src"]
 }

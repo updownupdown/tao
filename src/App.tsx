@@ -5,6 +5,8 @@ import Grid from "./components/Grid/Grid";
 import Names from "./components/Translations/Names";
 import { Translations } from "./components/Translations/Translations";
 
+// import { Parser } from "./components/Translations/parser";
+
 function App() {
   const [chapter, setChapter] = useState(1);
   const [translation, setTranslation] = useState(0);
@@ -91,7 +93,15 @@ function App() {
 
   return (
     <div className="main">
-      {(showGrid || showNames) && <div className="overlay" />}
+      {(showGrid || showNames) && (
+        <div
+          className="overlay"
+          onClick={() => {
+            setShowGrid(false);
+            setShowNames(false);
+          }}
+        />
+      )}
       {showGrid && (
         <Grid selectChapter={selectChapter} currentChapter={chapter} />
       )}
@@ -101,7 +111,12 @@ function App() {
           currentTranslation={translation}
         />
       )}
-      <Chapter chapter={chapter} translation={Translations[translation]} />
+      <Chapter
+        chapter={chapter}
+        translation={Translations[translation]}
+        showChapters={showChapters}
+        showTranslations={showTranslations}
+      />
       <Nav
         chapterPrev={chapterPrev}
         chapterNext={chapterNext}
@@ -110,6 +125,7 @@ function App() {
         showChapters={showChapters}
         showTranslations={showTranslations}
       />
+      {/* <Parser /> */}
     </div>
   );
 }

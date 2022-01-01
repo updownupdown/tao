@@ -3,7 +3,8 @@ import ArrowDown from "./ArrowDown";
 import ArrowLeft from "./ArrowLeft";
 import ArrowRight from "./ArrowRight";
 import ArrowUp from "./ArrowUp";
-import Grid from "./Grid";
+import Apps from "./Apps";
+import Menu from "./Menu";
 
 interface Props {
   chapterPrev: () => void;
@@ -30,7 +31,7 @@ const Nav = ({
             <ArrowLeft />
           </button>
           <button className="btn" onClick={showChapters}>
-            <Grid />
+            <Apps />
           </button>
           <button className="btn" onClick={chapterNext}>
             <ArrowRight />
@@ -45,7 +46,7 @@ const Nav = ({
             <ArrowDown />
           </button>
           <button className="btn" onClick={showTranslations}>
-            <Grid />
+            <Menu />
           </button>
           <button className="btn" onClick={translationNext}>
             <ArrowUp />

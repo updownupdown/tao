@@ -1,7 +1,8 @@
-import { Mitchell } from "./list/Mitchell";
-import { Riley } from "./list/Riley";
-import { Johnson } from "./list/Johnson";
-import { JohnsonTwo } from "./list/JohnsonTwo";
+import { text as Mitchell } from "./list/Mitchell";
+import { text as Bynner } from "./list/Bynner";
+import { text as Lombardo } from "./list/Lombardo";
+import { text as Lau } from "./list/Lau";
+import { text as Blakney } from "./list/Blakney";
 
 export interface TranslationProps {
   name: string;
@@ -20,15 +21,22 @@ export const Translations = [
     component: Mitchell,
   },
   {
-    name: "Paul C. Riley",
-    component: Riley,
+    name: "Stephen Addiss & Stanley Lombardo",
+    date: 1993,
+    component: Lombardo,
   },
   {
-    name: "John Johnson",
-    component: Johnson,
+    name: "D.C. Lau",
+    date: 1963,
+    component: Lau,
   },
   {
-    name: "John Johnson 2",
-    component: JohnsonTwo,
+    name: "Raymond B. Blakney",
+    date: 1955,
+    component: Blakney,
+  },
+  {
+    name: "Witter Bynner",
+    component: Bynner,
   },
 ];
