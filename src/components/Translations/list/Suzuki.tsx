@@ -818,12 +818,24 @@ Therefore the world rejoices in exalting him and does not tire. Because he striv
   },
   {
     chapter: 67,
+    content: `All in the world call me great; but I resemble the unlikely. Now a man is great only because he resembles the unlikely. Did he resemble the likely, how lasting, indeed, would his mediocrity be!
+
+I have three treasures which I cherish and prize. The first is called compassion. The second is called economy. The third is called not daring to come to the front in the world.
+
+The compassionate can be brave; the economical can be generous; those who dare not come to the front in the world can become perfect as chief vessels.
+
+Now, if people discard compassion and are brave; if they discard economy and are generous; if they discard modesty and are ambitious, they will surely die.
+
+Now, the compassionate will in attack be victorious, and in defence firm. Heaven when about to save one will with compassion protect him.`,
+  },
+  {
+    chapter: 68,
     content: `He who excels as a warrior is not warlike. He who excels as a fighter is not wrathful. He who excels in conquering the enemy does not strive. He who excels in employing men is lowly.
 
 This is called the virtue of not-striving. This is called utilizing men's ability. This is called complying with heaven-since olden times the highest.`,
   },
   {
-    chapter: 68,
+    chapter: 69,
     content: `A military expert used to say: 'I dare not act as host [who takes the initiative] but act as guest [with reserve]. I dare not advance an inch, but I withdraw a foot."
 
 This is called marching without marching, threatening without arms, charging without hostility, seizing without weapons.
@@ -833,7 +845,7 @@ No greater misfortune than making light of the enemy! When we make light of the 
 Thus, if matched armies encounter one another, the one who does so in sorrow is sure to conquer.`,
   },
   {
-    chapter: 69,
+    chapter: 70,
     content: `My words are very easy to understand and very easy to practise, but in the world no one can understand, no one can practise them.
 
 Words have an ancestor; Deeds have a master [viz., Reason]. Since he is not understood, therefore I am not understood. Those who understand me are few, and thus I am distinguished.
@@ -841,7 +853,7 @@ Words have an ancestor; Deeds have a master [viz., Reason]. Since he is not unde
 Therefore the holy man wears wool, and hides in his bosom his jewels.`,
   },
   {
-    chapter: 70,
+    chapter: 71,
     content: `To know the unknowable, that is elevating. Not to know the knowable, that is sickness.
 
 Only by becoming sick of sickness can we be without sickness.
@@ -849,7 +861,7 @@ Only by becoming sick of sickness can we be without sickness.
 The holy man is not sick. Because he is sick of sickness, therefore he is not sick.`,
   },
   {
-    chapter: 71,
+    chapter: 72,
     content: `If the people do not fear the dreadful, the great dreadful will come, surely.
 
 Let them not deem their lives narrow. Let them not deem their lot wearisome. When it is not deemed wearisome, then it will not be wearisome.
@@ -857,7 +869,7 @@ Let them not deem their lives narrow. Let them not deem their lot wearisome. Whe
 Therefore the holy man knows himself but does not display himself. He holds himself dear but does not honor himself. Thus he discards the latter and chooses the former.`,
   },
   {
-    chapter: 72,
+    chapter: 73,
     content: `Courage, if carried to daring, leads to death; courage, if not carried to daring, leads to life. Either of these two things is sometimes beneficial, sometimes harmful.
 
 "Why ’t is by heaven rejected,
@@ -870,19 +882,19 @@ The Heavenly Reason strives not, but it is sure to conquer. It speaks not, but i
 Heaven's net is vast, so vast. It is wide-meshed, but it loses nothing.`,
   },
   {
-    chapter: 73,
+    chapter: 74,
     content: `If the people do not fear death, how can they be frightened by death? If we make people fear death, and supposing some would [still] venture to rebel, if we seize them for capital punishment, who will dare?
 
 There is always an executioner who kills. Now to take the place of the executioner who kills is taking the place of the great carpenter who hews. If a man takes the place of the great carpenter who hews, he will rarely, indeed, fail to injure his hand.`,
   },
   {
-    chapter: 74,
+    chapter: 75,
     content: `The people hunger because their superiors consume too many taxes; therefore they hunger. The people are difficult to govern because their superiors are too meddlesome; therefore they are difficult to govern. The people make light of death on account of the intensity of their clinging to life; therefore they make light of death.
 
 He who is not bent on life is worthier than he who esteems life.`,
   },
   {
-    chapter: 75,
+    chapter: 76,
     content: `Man during life is tender and delicate. When he dies he is stiff and stark.
 
 The ten thousand things, the grass as well as the trees, while they live are tender and supple. When they die they are rigid and dry.
@@ -896,7 +908,7 @@ When a tree has grown strong it is doomed.
 The strong and the great stay below. The tender and the delicate stay above.`,
   },
   {
-    chapter: 76,
+    chapter: 77,
     content: `Is not Heaven's Reason truly like stretching a bow? The high it brings down, the lowly it lifts up. Those who have abundance it depleteth; those who are deficient it augmenteth.
 
 Such is Heaven's Reason. It depleteth those who have abundance but completeth the deficient.
@@ -908,7 +920,7 @@ Where is he who would have abundance for serving the world?
 Indeed, it is the holy man who acts but claims not; merit he acquires but he does not dwell upon it, and does he ever show any anxiety to display his excellence?`,
   },
   {
-    chapter: 77,
+    chapter: 78,
     content: `In the world nothing is tenderer and more delicate than water. In attacking the hard and the strong nothing will surpass it. There is nothing that herein takes its place.
 
 The weak conquer the strong, the tender conquer the rigid. In the world there is no one who does not know it, but no one will practise it.
@@ -923,7 +935,7 @@ As king of the empire we are hailing."
 True words seem paradoxical.`,
   },
   {
-    chapter: 78,
+    chapter: 79,
     content: `When a great hatred is reconciled, naturally some hatred will remain. How can this be made good?
 
 Therefore the sage keeps the obligations of his contract and exacts not from others. Those who have virtue attend to their obligations; those who have no virtue attend to their claims.
@@ -931,7 +943,13 @@ Therefore the sage keeps the obligations of his contract and exacts not from oth
 Heaven's Reason shows no preference but always assists the good man.`,
   },
   {
-    chapter: 79,
+    chapter: 80,
+    content: `In a small country with few people let there be aldermen and mayors who are possessed of power over men but would not use it. Induce people to grieve at death but do not cause them to move to a distance. Although they had ships and carriages, they should find no occasion to ride in them. Although they had armours and weapons, they should find no occasion to don them.
+
+Induce people to return to [the old custom of] knotted cords and to use them [in the place of writing], to delight in their food, to be proud of their clothes, to be content with their homes, and to rejoice in their customs: then in a neighboring state within sight, the voices of the cocks and dogs would be within hearing, yet the people might grow old and die before they visited one another.`,
+  },
+  {
+    chapter: 81,
     content: `True words are not pleasant; pleasant words are not true. The good are not contentious; the contentious are not good. The wise are not learned; the learned are not wise.
 
 The holy man hoards not. The more he does for others, the more he owns himself. The more he gives to others, the more will he himself lay up an abundance.

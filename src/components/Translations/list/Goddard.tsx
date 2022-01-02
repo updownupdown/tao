@@ -363,6 +363,12 @@ I hear it said that the sage when he travels is never attacked by rhinoceros or 
   },
   {
     chapter: 51,
+    content: `Tao gives life to all creatures; teh feeds them; materiality shapes them; energy completes them. Therefore among all things there is none that does not honor Tao and esteem teh. Honor for Tao and esteem for teh is never compelled, it is always spontaneous. Therefore Tao gives life to them, but teh nurses them, raises them, nurtures, completes, matures, rears, protects them.
+
+Tao gives life to them but makes no claim of ownership; teh forms them but makes no claim upon them, raises them but does not rule them. This is profound vitality (teh).`,
+  },
+  {
+    chapter: 52,
     content: `When creation began, Tao became the world's mother. When one knows one's mother he will m turn know that he is her son. When he recognizes his sonship, he will in turn keep to his mother and to the end of life will be free from danger.
 
 He who closes his mouth and shuts his sense gates will be free from trouble to the end of life. He who opens his mouth and meddles with affairs cannot be free from trouble even to the end of life.
@@ -370,13 +376,13 @@ He who closes his mouth and shuts his sense gates will be free from trouble to t
 To recognize one's insignificance is called enlightenment. To keep one's sympathy is called strength. He who uses Tao's light returns to Tao's enlightenment and does not surrender his person to perdition. This is called practicing the eternal.`,
   },
   {
-    chapter: 52,
+    chapter: 53,
     content: `Even if one has but a little knowledge he can walk in the ways of the great Tao; it is only self-assertion that one need fear.
 
 The great Tao (Way) is very plain, but people prefer the bypaths. When the palace is very splendid, the fields are likely to be very weedy, and the granaries empty. To wear ornaments and gay colors, to carry sharp swords, to be excessive in eating and drinking, and to have wealth and treasure in abundance is to know the pride of robbers. This is contrary to Tao.`,
   },
   {
-    chapter: 53,
+    chapter: 54,
     content: `The thing that is well planted is not easily uprooted. The thing that is well guarded is not easily taken away. If one has sons and grandsons, the offering of ancestral worship will not soon cease.
 
 He who practices Tao in his person shows that his teh is real. The family that practices it shows that their teh is abounding. The township that practices it shows that their teh is enduring. The state that practices it shows that their teh is prolific. The empire that practices it reveals that teh is universal. Thereby one person becomes a test of other persons, one family of other families, one town of other towns, one county of other counties, and one empire of all empires.
@@ -384,7 +390,7 @@ He who practices Tao in his person shows that his teh is real. The family that p
 How do I know that this test is universal? By this same Tao.`,
   },
   {
-    chapter: 54,
+    chapter: 55,
     content: `The essence of teh is comparable to the state of a young boy. Poisonous insects will not sting him, wild beasts will not seize him, birds of prey will not attack him. The bones are weak, the muscles are tender, it is true, but his grasp is firm.
 
 He does not yet know the relation of the sexes, but he has perfect organs, nevertheless. His spirit is virile, indeed! He can sob and cry all day without becoming hoarse, his harmony (as a child) is perfect indeed!
@@ -392,13 +398,13 @@ He does not yet know the relation of the sexes, but he has perfect organs, never
 To recognize this harmony (for growth) is to know the eternal'. To recognize the eternal is to know enlightenment. To increase life (to cause things to grow) is to know blessedness. To be conscious of an inner fecundity is strength. Things fully grown are about to decay, they are the opposite of Tao. The opposite of Tao soon ceases.`,
   },
   {
-    chapter: 55,
+    chapter: 56,
     content: `The one who knows does not speak; the one who speaks does not know. The wise man shuts his mouth and closes his gates. He softens his sharpness, unravels his tangles, dims his brilliancy, and reckons himself with the mysterious.
 
 He is inaccessible to favor or hate; he cannot be reached by profit or injury; he cannot be honored or humiliated. Thereby he is honored by all.`,
   },
   {
-    chapter: 56,
+    chapter: 57,
     content: `The empire is administered with righteousness; the army is directed by craft; the people are captivated by non-diplomacy. How do I know it is so? By this same Tao.
 
 Among people the more restrictions and prohibitions there are, the poorer they become. The more people have weapons, the more the state is in confusion. The more people are artful and cunning the more abnormal things occur. The more laws and orders are issued the more thieves and robbers abound.
@@ -406,25 +412,25 @@ Among people the more restrictions and prohibitions there are, the poorer they b
 Therefore the wise man says: If a ruler practices wu wei the people will reform of themselves. If I love quietude the people will of themselves become righteous. If I avoid profit-making the people will of themselves become prosperous. If I limit my desires the people will of themselves become simple.`,
   },
   {
-    chapter: 57,
+    chapter: 58,
     content: `When an administration is unostentatious the people are simple. When an administration is inquisitive, the people are needy. Misery, alas, supports happiness. Happiness, alas, conceals misery. Who knows its limits? It never ceases. The normal becomes the abnormal. The good in turn becomes unlucky. The people's confusion is felt daily for a long time.
 
 Therefore the wise man is square, yet does not injure, he is angular but does not annoy. He is upright but is not cross. He is bright but not glaring.`,
   },
   {
-    chapter: 58,
+    chapter: 59,
     content: `In governing the people and in worshipping heaven nothing surpasses moderation. To value moderation, one must form the habit early. Its early acquisition will result in storing and accumulating vitality. By storing and accumulating vitality nothing is impossible.
 
 If nothing is impossible then one is ignorant of his limits. If one does not know his limitations, one may possess the state. He who possesses moderation is thereby lasting and enduring. It is like having deep roots and a strong stem. This is of long life and enduring insight the Tao (way).`,
   },
   {
-    chapter: 59,
+    chapter: 60,
     content: `One should govern a great state as one fries small fish (i.e., do not scale or clean them).
 
 With Tao one may successfully rule the Empire. Ghosts will not frighten, gods will not harm, neither will wise men mislead the people. Since nothing frightens or harms the people, teh will abide.`,
   },
   {
-    chapter: 60,
+    chapter: 61,
     content: `A great state that is useful is like a bond of unity within the Empire; it is the Empire's wife.
 
 The female controls the male by her quietude and submission. Thus a great state by its service to smaller states wins their allegiance. A small state by submission to a great state wins an influence over them. Thus some stoop to conquer, and others stoop and conquer.
@@ -432,7 +438,7 @@ The female controls the male by her quietude and submission. Thus a great state 
 Great states can have no higher purpose than to federate states and feed the people. Small states can have no higher purpose than to enter a federation and serve the people. Both alike, each in his own way, gain their end, but to do so, the greater must practice humility.`,
   },
   {
-    chapter: 61,
+    chapter: 62,
     content: `The Tao is the asylum of all things; the good man's treasure, the bad man's last resort. With beautiful words one may sell goods but in winning people one can accomplish more by kindness. Why should a man be thrown away for his evil? To conserve him was the Emperor appointed and the three ministers.
 
 Better than being in the presence of the Emperor and riding with four horses, is sitting and explaining this Tao.
@@ -440,7 +446,7 @@ Better than being in the presence of the Emperor and riding with four horses, is
 The reason the Ancients esteemed Tao was because if sought it was obtained, and because by it he that hath sin could be saved. Is it not so? Therefore the world honors Tao.`,
   },
   {
-    chapter: 62,
+    chapter: 63,
     content: `One should avoid assertion (wu wei) and practice inaction. One should learn to find taste in the tasteless, to enlarge the small things, and multiply the few. He should respond to hatred with kindness. He should resolve a difficulty while it is easy, and manage a great thing while it is small. Surely all the world's difficulties arose from slight causes, and all the world's great affairs had small beginnings.
 
 Therefore the wise man avoids to the end participation in great affairs and by so doing establishes his greatness.
@@ -448,13 +454,13 @@ Therefore the wise man avoids to the end participation in great affairs and by s
 Rash promises are lacking in faith and many things that appear easy are full of difficulties. Therefore the wise man considers every thing difficult and so to the end he has no difficulties.`,
   },
   {
-    chapter: 63,
+    chapter: 64,
     content: `That which is at rest is easily restrained, that which has not yet appeared is easily prevented. The weak is easily broken, the scanty is easily scattered. Consider a difficulty before it arises, and administer affairs before they become disorganized. A tree that it takes both arms to encircle grew from a tiny rootlet. A pagoda of nine stories was erected by placing small bricks. A journey of three thousand miles begins with one step. If one tries to improve a thing, he mars it; if he seizes it, he loses it. The wise man, therefore, not attempting to form things does not mar them, and not grasping after things he does not lose them. The people in their rush for business are ever approaching success but continually failing. One must be as careful to the end as at the beginning if he is to succeed.
 
 Therefore the wise man desires to be free from desire, he does not value the things that are difficult of attainment. He learns to be unlearned, he returns to that which all others ignore. In that spirit he helps all things toward their natural development, but dares not interfere.`,
   },
   {
-    chapter: 64,
+    chapter: 65,
     content: `In the olden days those who obeyed the spirit of Tao did not enlighten the people but kept them simple hearted.
 
 The reason people are difficult to govern is because of their smartness; likewise to govern a people with guile is a curse; and to govern them with simplicity is a blessing. He who remembers these two things is a model ruler. Always to follow this standard and rule is teh, the profound.
@@ -462,7 +468,7 @@ The reason people are difficult to govern is because of their smartness; likewis
 Profound teh is deep indeed and far reaching. The very opposite of common things, but by it one obtains obedient subjects.`,
   },
   {
-    chapter: 65,
+    chapter: 66,
     content: `The reason rivers and seas are called the kings of the valley is because they keep below them.
 
 Therefore the wise man desiring to be above his people must in his demeanor keep below them; wishing to benefit his people, he must ever keep himself out of sight.
@@ -472,7 +478,7 @@ The wise man dwells above, yet the people do not feel the burden; he is the lead
 Because he will not quarrel with anyone, no one can quarrel with him.`,
   },
   {
-    chapter: 66,
+    chapter: 67,
     content: `All the world calls Tao great, yet it is by nature immaterial. It is because a thing is seemingly unreal that it is great. If a man affects to be great, how long can he conceal his mediocrity?
 
 Tao has three treasures which he guards and cherishes. The first is called compassion; the second is called economy; the third is called humility. A man that is compassionate can 'be truly brave; if a man is economical he can be generous; if he is humble he can become a useful servant.
@@ -480,13 +486,13 @@ Tao has three treasures which he guards and cherishes. The first is called compa
 If one discards compassion and is still brave, abandons economy and is still generous, forsakes humility and still seeks to be serviceable, his days are numbered. On the contrary if one is truly compassionate, in battle he will be a conqueror and in defence he will be secure. When even Heaven helps people it is because of compassion that she does so.`,
   },
   {
-    chapter: 67,
+    chapter: 68,
     content: `He who excels as a soldier is the one who is not warlike; he who fights the best fight is not wrathful; he who best conquers an enemy is not quarrelsome; he who best employs people is obedient himself.
 
 This is the virtue of not-quarreling, this is the secret of bringing out other men's ability, this is complying with Heaven. Since of old it is considered the greatest virtue (teh).`,
   },
   {
-    chapter: 68,
+    chapter: 69,
     content: `A military expert has said: I do not dare put myself forward as a host, but always act as a guest. I hesitate to advance an inch, but am willing to withdraw a foot.
 
 This is advancing by not advancing, it is winning without arms, it is charging without hostility, it is seizing without weapons. There is no mistake greater than making light of an enemy. By making light of an enemy we lose our treasure.
@@ -494,7 +500,7 @@ This is advancing by not advancing, it is winning without arms, it is charging w
 Therefore when well-matched armies come to conflict, the one who is conscious of his weakness conquers.`,
   },
   {
-    chapter: 69,
+    chapter: 70,
     content: `My words are very easy to understand and very easy to put into practice, yet in all the world no one appears to understand them or to practice them.
 
 Words have an ancestor (a preceding idea), deeds have a master (a preceding purpose), and just as these are often not understood, so I am not understood.
@@ -502,31 +508,31 @@ Words have an ancestor (a preceding idea), deeds have a master (a preceding purp
 They who understand me are very few, and on that account I am worthy of honor. The wise man wears wool (rather than silk) and keeps his gems out of sight.`,
   },
   {
-    chapter: 70,
+    chapter: 71,
     content: `To recognize one's ignorance of unknowable things is mental health, and to be ignorant of knowable things is sickness. Only by grieving over ignorance of knowable things are we in mental health. The wise man is wise because he understands his ignorance and is grieved over it.`,
   },
   {
-    chapter: 71,
+    chapter: 72,
     content: `When people are too ignorant to fear the fearsome thing, then it will surely come. Do not make the place where they dwell confining, the life they live wearisome. If they are let alone, they will not become restless. Therefore the wise man while not understanding himself regards himself, while cherishing he does not overvalue himself. Therefore he discards flattery and prefers regard.`,
   },
   {
-    chapter: 72,
+    chapter: 73,
     content: `Courage carried to daring leads to death. Courage restrained by caution leads to life. These two things, courage and caution, are sometimes beneficial and sometimes harmful. Some things are rejected by heaven, who can tell the reason? Therefore the wise man deems all acting difficult.
 
 The Tao of heaven does not quarrel, yet it conquers. It speaks not, yet its response is good. It issues no summons but things come to it naturally because its devices are good. Heaven's net is vast, indeed! its meshes are wide but it loses nothing.`,
   },
   {
-    chapter: 73,
+    chapter: 74,
     content: `If the people do not fear death, how can one frighten them with death? If we teach people to fear death, then when one rebels he can be seized and executed; after that who will dare to rebel?
 
 There is always an officer to execute a murderer, but if one takes the place of the executioner, it is like taking the place of a skilled carpenter at his hewing. If one takes the place of the skilled carpenter he is liable to cut himself. (Therefore do not interfere with Tao.)`,
   },
   {
-    chapter: 74,
+    chapter: 75,
     content: `Starvation of a people comes when an official appropriates to himself too much of the taxes. The reason a people are difficult to govern is because the officials are too meddlesome; the people make light of death because they are so absorbed in life's interests. The one who is not absorbed in life is more moral than he who esteems life.`,
   },
   {
-    chapter: 75,
+    chapter: 76,
     content: `When a man is living he is tender and fragile. When he dies he is hard and stiff. It is the same with everything, the grass and trees, in life, are tender and delicate, but when they die they become rigid and dry.
 
 Therefore those who are hard and stiff belong to death's domain, while the tender and weak belong to the realm of life.
@@ -534,7 +540,7 @@ Therefore those who are hard and stiff belong to death's domain, while the tende
 Therefore soldiers are most invincible when they will not conquer. When a tree is grown to its greatest strength it is doomed. The strong and the great stay below; the tender and weak rise above.`,
   },
   {
-    chapter: 76,
+    chapter: 77,
     content: `Tao of heaven resembles the stretching of a bow. The mighty it humbles, the lowly it exalts. They who have abundance it diminishes and gives to them who have need.
 
 That is Tao of heaven; it depletes those who abound, and completes those who lack.
@@ -544,7 +550,7 @@ The human way is not so. Men take from those who lack to give to those who alrea
 The wise man makes but claims not, he accomplishes merit, yet is not attached to it, neither does he display his excellence. Is it not so?`,
   },
   {
-    chapter: 77,
+    chapter: 78,
     content: `In the world nothing is more fragile than water, and yet of all the agencies that attack hard substances nothing can surpass it.
 
 Of all things there is nothing that can take the place of Tao. By it the weak are conquerors of the strong, the pliable are conquerors of the rigid. In the world every one knows this, but none practice it.
@@ -552,13 +558,19 @@ Of all things there is nothing that can take the place of Tao. By it the weak ar
 Therefore the wise man declares: he who is guilty of the country's sin may be the priest at the altar. He who is to blame for the country's misfortunes, is often the Empire's Sovereign. True words are often paradoxical.`,
   },
   {
-    chapter: 78,
+    chapter: 79,
     content: `When reconciling great hatred there will some remain. How can it be made good?
 
 Therefore the wise man accepts the debit side of the account and does not have to enforce payment from others. They who have virtue (teh) keep their obligations, they who have no virtue insist on their rights. Tao of heaven has no favorites but always helps the good man.`,
   },
   {
-    chapter: 79,
+    chapter: 80,
+    content: `In a small country with few people let there be officers over tens and hundreds but not to exercise power. Let the people be not afraid of death, nor desire to move to a distance. Then though there be ships and carriages, they will have no occasion to use them. Though there be armor and weapons there will be no occasion for donning them. The people can return to knotted cords for their records, they can delight in their food, be proud of their clothes, be content with their dwellings, rejoice in their customs.
+
+Other states may be close neighbors, their cocks and dogs may be mutually heard, people will come to old age and die but will have no desire to go or come.`,
+  },
+  {
+    chapter: 81,
     content: `Faithful words are often not pleasant; pleasant words are often not faithful. Good men do not dispute; the ones who dispute are not good. The learned men are often not the wise men, nor the wise men, the learned. The wise man does not hoard, but ever working for others, he will the more exceedingly acquire. Having given to others freely, he himself will have in plenty. Tao of heaven benefits but does not injure. The wise man's Tao leads him to act but not to quarrel.`,
   },
 ];

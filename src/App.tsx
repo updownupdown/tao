@@ -5,7 +5,6 @@ import ChapterMenu from "./components/ChapterMenu/ChapterMenu";
 import TranslationMenu from "./components/TranslationMenu/TranslationMenu";
 import ThemeMenu from "./components/ThemeMenu/ThemeMenu";
 import { Translations } from "./components/Translations/Translations";
-// import { Parser } from "./components/Translations/parser";
 
 function App() {
   const [chapter, setChapter] = useState(1);
@@ -84,21 +83,21 @@ function App() {
     }
   }
 
-  function handleKeyPress(event: any) {
-    if (event.key === "ArrowLeft") chapterPrev();
-    if (event.key === "ArrowRight") chapterNext();
-    if (event.key === "ArrowDown") translationPrev();
-    if (event.key === "ArrowUp") translationNext();
-    if (event.key === " ") handleSpacebar();
-  }
-
   useEffect(() => {
+    function handleKeyPress(event: any) {
+      if (event.key === "ArrowLeft") chapterPrev();
+      if (event.key === "ArrowRight") chapterNext();
+      if (event.key === "ArrowDown") translationPrev();
+      if (event.key === "ArrowUp") translationNext();
+      if (event.key === " ") handleSpacebar();
+    }
+
     document.addEventListener("keydown", handleKeyPress);
 
     return () => {
       document.removeEventListener("keydown", handleKeyPress);
     };
-  }, [handleKeyPress]);
+  });
 
   return (
     <div className={`main theme--${themeColor} theme--${themeFont}`}>
@@ -140,7 +139,6 @@ function App() {
         showChapters={showChapters}
         showTranslations={showTranslations}
       />
-      {/* <Parser /> */}
     </div>
   );
 }

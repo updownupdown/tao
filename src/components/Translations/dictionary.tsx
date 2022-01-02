@@ -1,6 +1,34 @@
-import React from "react";
+// import React from "react";
 
 export const dictionary = [
+  {
+    t: "饑",
+    d: ["hungry", "famine"],
+  },
+  {
+    t: "敎",
+    d: ["teach"],
+  },
+  {
+    t: "谿",
+    d: ["creek", "brook", "rivulet"],
+  },
+  {
+    t: "汎",
+    d: ["extensive", "general", "broad", "vast"],
+  },
+  {
+    t: "惵",
+    d: ["worried"],
+  },
+  {
+    t: "綵",
+    d: ["color", "colored"],
+  },
+  {
+    t: "嗌",
+    d: ["(No translation available)"],
+  },
   {
     t: "一",
     s: "一",

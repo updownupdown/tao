@@ -62,22 +62,26 @@ const Chapter = ({
         <h4>{originalText.title}</h4>
         <p>
           {splitText.map((txt, index) => {
-            const definition = charactersWithoutDefinitions.includes(txt)
-              ? ""
-              : lookupCharacter(txt);
+            const isSpecialCharacter =
+              charactersWithoutDefinitions.includes(txt);
+            const definition = isSpecialCharacter ? "" : lookupCharacter(txt);
+            const hidePunctuation = true;
 
             return (
               <React.Fragment key={index}>
-                <span
-                  className={clsx(
-                    "fragment",
-                    txt === "。" && "fragment--period",
-                    definition !== "" && "fragment--has-tooltip"
-                  )}
-                  data-tip={definition}
-                >
-                  {txt}
-                </span>
+                {(!isSpecialCharacter || !hidePunctuation || txt === "\n") && (
+                  <span
+                    className={clsx(
+                      "fragment",
+                      definition !== "" && "fragment--has-tooltip"
+                      // txt === "。" && "fragment--period",
+                      // isSpecialCharacter && "fragment--special-char"
+                    )}
+                    data-tip={definition}
+                  >
+                    {txt}
+                  </span>
+                )}
                 {txt === "。" && <br />}
               </React.Fragment>
             );
@@ -89,8 +93,8 @@ const Chapter = ({
 
   function lookupCharacter(character: string) {
     const definitions: string[] = [];
-    const traditional = dictionary.find((obj) => obj.t == character);
-    const simplified = dictionary.find((obj) => obj.s == character);
+    const traditional = dictionary.find((obj) => obj.t === character);
+    const simplified = dictionary.find((obj) => obj.s === character);
 
     if (traditional === undefined && simplified === undefined) {
       console.warn(character + " has no definition!");
@@ -117,14 +121,14 @@ const Chapter = ({
 
   return (
     <div className="chapter">
+      <div className="chapter__original">
+        <ReactTooltip className="tooltip-tao" effect="solid" />
+        <div className="original">{getOriginal()}</div>
+      </div>
       <div className="chapter__translation">
         <h4 onClick={() => showTranslations()}>{translation.name}</h4>
         <h2 onClick={() => showChapters()}>{chapter}</h2>
         {getChapter()}
-      </div>
-      <div className="chapter__original">
-        <ReactTooltip className="tooltip-tao" effect="solid" />
-        <div className="original">{getOriginal()}</div>
       </div>
     </div>
   );

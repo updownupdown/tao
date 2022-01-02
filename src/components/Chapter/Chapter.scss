@@ -2,12 +2,92 @@
 
 .chapter {
   display: flex;
-  gap: 40px;
+  gap: 60px;
   width: 1000px;
   max-width: 100%;
 
   @media #{$query-max-lg} {
     flex-direction: column;
+  }
+
+  &__original {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+
+    @media #{$query-max-lg} {
+      order: 2;
+    }
+
+    .original {
+      margin-top: 34px;
+      width: 100%;
+
+      @media #{$query-min-lg} {
+        text-align: right;
+      }
+
+      h4,
+      p {
+        font-family: var(--theme-font-chinese);
+
+        line-height: 1.7;
+        letter-spacing: 2px;
+      }
+
+      h4 {
+        margin-bottom: 42px;
+        font-weight: 400;
+        color: var(--accent);
+
+        @media #{$query-max-lg} {
+          font-size: 24px;
+        }
+        @media #{$query-min-lg} {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        transition: 0.5s ease color;
+        font-weight: 400;
+
+        @media #{$query-max-lg} {
+          font-size: 24px;
+        }
+        @media #{$query-min-lg} {
+          font-size: 18px;
+        }
+
+        .theme--light & {
+          color: var(--K400);
+        }
+        .theme--dark & {
+          color: var(--K700);
+        }
+
+        .fragment {
+          &--has-tooltip {
+            transition: 0.1s ease color;
+            cursor: pointer;
+
+            &:hover {
+              color: var(--accent);
+            }
+          }
+        }
+      }
+
+      &:hover p {
+        .theme--light & {
+          color: var(--K800);
+        }
+        .theme--dark & {
+          color: var(--white);
+        }
+      }
+    }
   }
 
   &__translation {
@@ -49,49 +129,6 @@
       font-size: 20px;
       line-height: 1.8;
       font-weight: 500;
-    }
-  }
-
-  &__original {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 1;
-
-    .original {
-      h4,
-      p {
-        font-family: var(--theme-font-chinese);
-
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 1.7;
-        letter-spacing: 2px;
-      }
-
-      h4 {
-        margin-bottom: 20px;
-        color: var(--K400);
-      }
-
-      p {
-        color: var(--theme-text-color);
-
-        .fragment {
-          &--period {
-            padding-bottom: 20px;
-          }
-
-          &--has-tooltip {
-            transition: 0.1s ease color;
-            cursor: pointer;
-
-            &:hover {
-              color: var(--accent);
-            }
-          }
-        }
-      }
     }
   }
 

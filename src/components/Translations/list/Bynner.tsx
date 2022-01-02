@@ -615,6 +615,22 @@ How endless it is and how good!`,
   },
   {
     chapter: 36,
+    content: `He who feels punctured
+Must once have been a bubble,
+He who feels unarmed
+Must have carried arms,
+He who feels belittled
+Must have been consequential,
+He who feel deprived
+Must have had privilege,
+Whereas a man with insight
+Knows that to keep under is to endure.
+What happens to a fish pulled out of a pond?
+Or to an implement of state pulled out of a scabbard?
+Unseen, they survive.`,
+  },
+  {
+    chapter: 37,
     content: `The way to use life is to do nothing through acting,
 The way to use life is to do everything through being.
 When a leader knows this,
@@ -627,7 +643,7 @@ And to a land where men cease from coveting
 Peace comes of course.`,
   },
   {
-    chapter: 37,
+    chapter: 38,
     content: `A man of sure fitness, without making a point of his fitness,
 Stays fit;
 A man of unsure fitness, assuming an appearance of fitness,
@@ -658,7 +674,7 @@ Beyond the flowering:
 He has his no and he has his yes.`,
   },
   {
-    chapter: 38,
+    chapter: 39,
     content: `The wholeness of life has, from of old, been made manifest in its parts:
 Clarity has been made manifest in heaven,
 Firmness in earth,
@@ -685,14 +701,14 @@ Who will prefer the jingle of jade pendants if
 He once has heard stone growing in a cliff!`,
   },
   {
-    chapter: 39,
+    chapter: 40,
     content: `Life on its way returns into a mist,
 Its quickness is its quietness again:
 Existence of this world of things and men
 Renews their never needing to exist.`,
   },
   {
-    chapter: 40,
+    chapter: 41,
     content: `Men of stamina, knowing the way of life,
 Steadily keep to it;
 Unstable men, knowing the way of life,
@@ -717,7 +733,7 @@ Life is his who can tell beyond words
 Fulfillment of the unfulfilled.`,
   },
   {
-    chapter: 41,
+    chapter: 42,
     content: `Life, when it came to be,
 Bore one, then two, then three
 Elements of things;
@@ -740,7 +756,7 @@ Shall die thereby of course,
 And is what my own heart teaches.`,
   },
   {
-    chapter: 42,
+    chapter: 43,
     content: `As the soft yield of water cleaves obstinate stone,
 So to yield with life solves the insoluble:
 To yield, I have learned, is to come back again.
@@ -749,7 +765,7 @@ This easy example,
 Is lost upon men.`,
   },
   {
-    chapter: 43,
+    chapter: 44,
     content: `Which means more to you,
 You or your renown?
 Which brings more to you,
@@ -764,7 +780,7 @@ He knows both ways,
 He starts again.`,
   },
   {
-    chapter: 44,
+    chapter: 45,
     content: `A man's work, however finished it seem,
 Continues as long as he live;
 A man, however perfect he seem,
@@ -778,7 +794,7 @@ And in all the world one day no doubt
 Your way shall be the rule.`,
   },
   {
-    chapter: 45,
+    chapter: 46,
     content: `In a land where the way of life is understood
 Race-horses are led back to serve the field;
 In a land where the way of life is not understood
@@ -790,7 +806,7 @@ Only he who contains content
 Remains content.`,
   },
   {
-    chapter: 46,
+    chapter: 47,
     content: `There is no need to run outside
 For better seeing,
 Nor to peer from a window. Rather abide
@@ -801,7 +817,7 @@ If he is wise who takes each turn:
 The way to do is to be.`,
   },
   {
-    chapter: 47,
+    chapter: 48,
     content: `A man anxious for knowledge adds more to himself every minute;
 A man acquiring life loses himself in it,
 Has less and less to bear in mind,
@@ -814,7 +830,7 @@ And if there appear to you to be need
 Of motion to sway it, it has left you behind.`,
   },
   {
-    chapter: 48,
+    chapter: 49,
     content: `A sound man's heart is not shut within itself
 But is open to other people's hearts:
 I find good people good,
@@ -829,7 +845,7 @@ If I am enough of a father,
 Enough of a son.`,
   },
   {
-    chapter: 49,
+    chapter: 50,
     content: `Death might appear to be the issue of life,
 Since for every three out of ten being born
 Three out of ten are dying.
@@ -846,7 +862,25 @@ And why?
 Because he has no death to die.`,
   },
   {
-    chapter: 50,
+    chapter: 51,
+    content: `Existence having born them
+And fitness bred them,
+While matter varied their forms
+And breath empowered them,
+All created things render, to the existence and fitness they depend on,
+An obedience
+Not commanded but of course.
+And since this is the way existence bears issue
+And fitness raises, attends,
+Shelters, feeds and protects,
+Do you likewise
+Be parent, not possessor,
+Attendant, not master,
+Be concerned not with obedience but with benefit,
+And you are at the core of living.`,
+  },
+  {
+    chapter: 52,
     content: `The source of life
 Is as a mother.
 Be fond of both mother and children but know the mother dearer
@@ -864,7 +898,7 @@ And you are immune:
 For you have witnessed eternity.`,
   },
   {
-    chapter: 51,
+    chapter: 53,
     content: `If I had any learning
 Of a highway wide and fit,
 Would I lose it at each turning?
@@ -883,7 +917,7 @@ There are other brigands, but these are the worst
 Of all the highway's harms.`,
   },
   {
-    chapter: 52,
+    chapter: 54,
     content: `'Since true foundation cannot fail
 But holds as good as new,
 Many a worshipful son shall hail
@@ -902,7 +936,7 @@ How do I know this integrity?
 Because it could all begin in me.`,
   },
   {
-    chapter: 53,
+    chapter: 55,
     content: `He whom life fulfills,
 Though he remains a child,
 Is immune to the poisonous sting
@@ -922,7 +956,7 @@ Willis not the way at all:
 Deny the way of life and you are dead.`,
   },
   {
-    chapter: 54,
+    chapter: 56,
     content: `Those who know do not tell,
 Those who tell do not know.
 Not to set the tongue loose
@@ -938,7 +972,7 @@ Beyond care of praise or blame,
 Has attained the highest post in the world.`,
   },
   {
-    chapter: 55,
+    chapter: 57,
     content: `A realm is governed by ordinary acts,
 A battle is governed by extraordinary acts;
 The world is governed by no acts at all.
@@ -959,7 +993,7 @@ If I keep from preaching at people, they improve themselves,
 If I keep from imposing on people, they become themselves.`,
   },
   {
-    chapter: 56,
+    chapter: 58,
     content: `The less a leader does and says
 The happier his people,
 The more a leader struts and brags
@@ -977,7 +1011,7 @@ The glow of his life shall not daze,
 It shall lead.`,
   },
   {
-    chapter: 57,
+    chapter: 59,
     content: `To lead men and serve heaven, weigh the worth
 Of the one source:
 Use the single force
@@ -989,7 +1023,7 @@ And ever-iving root of it:
 The seeing.root, whose eye is infinite.`,
   },
   {
-    chapter: 58,
+    chapter: 60,
     content: `Handle a large kingdom with as gentle a touch as if you were cooking small fish.
 If you manage people by letting them alone,
 Ghosts of the dead shall not haunt you.
@@ -1000,7 +1034,7 @@ There is no difference between the quick and the dead,
 They are one channel of vitality.`,
   },
   {
-    chapter: 59,
+    chapter: 61,
     content: `A large country is the low level of interflowing rivers.
 It draws people to the sea-end of a valley
 As the female draws the male,
@@ -1018,7 +1052,7 @@ And so each country can naturally have what it needs
 If the large country submit.`,
   },
   {
-    chapter: 60,
+    chapter: 62,
     content: `Existence is sanctuary:
 It is a good man's purse,
 It is also a bad man's keep.
@@ -1035,7 +1069,7 @@ What men in all the world could have more wealth than
 they?`,
   },
   {
-    chapter: 61,
+    chapter: 63,
     content: `Men knowing the way of life
 Do without acting,
 Effect without enforcing,
@@ -1059,7 +1093,7 @@ If you face trouble sanely
 It cannot trouble you.`,
   },
   {
-    chapter: 62,
+    chapter: 64,
     content: `Before it move, hold it,
 Before it go wrong, mould it,
 Drain off water in winter before it freeze,
@@ -1084,7 +1118,7 @@ Is not to interfere but to let nature renew
 The sense of direction men undo.`,
   },
   {
-    chapter: 63,
+    chapter: 65,
     content: `Sound old rulers, it is said,
 Left people to themselves, instead
 Of wanting to teach everything
@@ -1103,7 +1137,7 @@ From start to finish and finish to start
 The circle rounding perfectly.`,
   },
   {
-    chapter: 64,
+    chapter: 66,
     content: `Why are rivers and seas lords of the waters?
 Because they afford the common level
 And so become lords of the waters.
@@ -1118,7 +1152,7 @@ People never tire of anyone
 Who is not bent upon comparison.`,
   },
   {
-    chapter: 65,
+    chapter: 67,
     content: `Everyone says that my way of life is the way of a simpleton.
 Being largely the way of a simpleton is what makes it worth while.
 If it were not the way of a simpleton
@@ -1142,7 +1176,7 @@ Is a weapon from the sky
 Against being dead.`,
   },
   {
-    chapter: 66,
+    chapter: 68,
     content: `The best captain does not plunge headlong
 Nor is the best soldier a fellow hot to fight.
 The greatest victor wins without a battle:
@@ -1153,7 +1187,7 @@ Which quickens people by no stress:
 Is fellowship with man and keeps its hold.`,
   },
   {
-    chapter: 67,
+    chapter: 69,
     content: `The handbook of the strategist has said:
 'Do not invite the fight, accept it instead,'
 'Better a foot behind than an inch too far ahead,'
@@ -1168,7 +1202,7 @@ Let him not strip from you, however strong he be,
 Compassion, the one wealth which can afford him.`,
   },
   {
-    chapter: 68,
+    chapter: 70,
     content: `My way is so simple to feel, so easy to apply,
 That only a few will feel it or apply it.
 If it were not the lasting way, the natural way to try,
@@ -1181,7 +1215,7 @@ Sanity is a haircloth sheath
 With a jewel underneath.`,
   },
   {
-    chapter: 69,
+    chapter: 71,
     content: `A man who knows how little he knows is well,
 A man who knows how much he knows is sick.
 If, when you see the symptoms, you can tell,
@@ -1190,7 +1224,7 @@ A sound man knows that sickness makes him sick
 And before he catches it his cure is quick.`,
   },
   {
-    chapter: 70,
+    chapter: 72,
     content: `Upon those who defy authority
 It shall be visited,
 But not behind prison walls
@@ -1202,7 +1236,7 @@ To think well of yourself and not tell of yourself,
 Be that your no and your yes.`,
   },
   {
-    chapter: 71,
+    chapter: 73,
     content: `A man with outward courage dares to die,
 A man with inward courage dares to live;
 But either of these men
@@ -1216,7 +1250,7 @@ And which of us, seeing that nothing is outside the vast
 Wide-meshed net of heaven, knows just how it is cast?`,
   },
   {
-    chapter: 72,
+    chapter: 74,
     content: `People starve
 If taxes eat their grain,
 And the faults of starving people
@@ -1228,7 +1262,7 @@ Are higher men than those who, stationed high,
 Are too fat to dare to die.`,
   },
   {
-    chapter: 73,
+    chapter: 75,
     content: `Death is no threat to people
 Who are not afraid to die;
 But even if these offenders feared death all day,
@@ -1241,7 +1275,7 @@ And 'an apprentice hacking with the master's axe
 May slice his own hand.'`,
   },
   {
-    chapter: 74,
+    chapter: 76,
     content: `Man, born tender and yielding,
 Stiffens and hardens in death.
 All living growth is pliant,
@@ -1254,7 +1288,7 @@ Down goes the tough and big,
 Up comes the tender sprig.`,
   },
   {
-    chapter: 75,
+    chapter: 77,
     content: `Is not existence
 Like a drawn bow?
 The ends approach,
@@ -1270,7 +1304,7 @@ Than this common means,
 Through which he is all men's equal.`,
   },
   {
-    chapter: 76,
+    chapter: 78,
     content: `What is more fluid, more yielding than water?
 Yet back it comes again, wearing down the rigid strength
 Which cannot yield to withstand it.
@@ -1286,7 +1320,7 @@ Is king,'
 They seem to twist the truth.`,
   },
   {
-    chapter: 77,
+    chapter: 79,
     content: `If terms to end a quarrel leave bad feeling,
 What good are they?
 So a sensible man takes the poor end of the bargain
@@ -1297,7 +1331,7 @@ Though heaven prefer no man,
 A sensible man prefers heaven.`,
   },
   {
-    chapter: 78,
+    chapter: 80,
     content: `If a land is small and its people are few,
 With tenfold enough to have and to do,
 And if no one has schooled them to waste supply
@@ -1317,7 +1351,7 @@ Yet glad of life in the village they know,
 Where else in the world shall they need to go?`,
   },
   {
-    chapter: 79,
+    chapter: 81,
     content: `Real words are not vain,
 Vain words not real;
 And since those who argue prove nothing

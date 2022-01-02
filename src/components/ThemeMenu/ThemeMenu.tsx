@@ -29,10 +29,10 @@ const ThemeMenu = ({
       >
         <span className="toggle" />
         <span className="icon icon--left">
-          <Day />
+          <Night />
         </span>
         <span className="icon icon--right">
-          <Night />
+          <Day />
         </span>
       </div>
 
@@ -45,10 +45,10 @@ const ThemeMenu = ({
       >
         <span className="toggle" />
         <span className="icon icon--left">
-          <Sans />
+          <Serif />
         </span>
         <span className="icon icon--right">
-          <Serif />
+          <Sans />
         </span>
       </div>
     </div>

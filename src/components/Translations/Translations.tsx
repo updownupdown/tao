@@ -13,9 +13,9 @@ export interface TranslationProps {
   component: React.ReactNode;
 }
 
-interface Props {
-  translations: TranslationProps[];
-}
+// interface Props {
+//   translations: TranslationProps[];
+// }
 
 export const Translations = [
   {

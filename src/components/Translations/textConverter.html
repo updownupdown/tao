@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+        gap: 40px;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        display: flex;
+        gap: 40px;
+      }
+      button {
+        padding: 20px;
+        font-size: 18px;
+      }
+
+      .textareas {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 40px;
+        height: 60vh;
+        padding: 40px;
+      }
+
+      .textarea-group {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-grow: 1;
+      }
+      label {
+        font-size: 18px;
+      }
+      textarea {
+        flex: 1;
+        /* width: 500px; */
+        /* height: 1000px; */
+      }
+    </style>
+    <script>
+      //Write your javascript code here
+      function convert() {
+        const inputContent = document.getElementById("input").value;
+        const output = document.getElementById("output");
+
+        const splitText = inputContent.split(/([0-9]\n)/);
+
+        // remove empty items and push to new array
+        const cleanedSplitText = [];
+
+        for (let i = 0; i < splitText.length; i++) {
+          const text = splitText[i].replace(/([0-9])/, "");
+
+          if (text === "") continue;
+          if (text === " ") continue;
+          if (text === "\n") continue;
+          if (text.match(/([0-9])/)) continue;
+
+          cleanedSplitText.push(text);
+        }
+
+        let mergedText = "";
+
+        for (let i = 0; i < cleanedSplitText.length; i++) {
+          const text = cleanedSplitText[i].trim();
+
+          // console.log(text);
+
+          mergedText += `{ chapter: ${i + 1}, content: \`${text}\`},`;
+        }
+
+        // add header/footer
+        const fileHeader = "export const text = [";
+        const fileFooter = "];";
+        mergedText = fileHeader + mergedText + fileFooter;
+
+        // console.log(mergedText);
+
+        output.value = mergedText;
+      }
+
+      function copyToClipboard() {
+        /* Get the text field */
+        const copyText = document.getElementById("output");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.value);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="buttons">
+        <button id="convert" onclick="convert()">Convert</button>
+        <button id="convert" onclick="copyToClipboard()">
+          Copy to clipboard
+        </button>
+      </div>
+      <div class="textareas">
+        <div class="textarea-group">
+          <label>Input</label>
+          <textarea id="input" label="Input Text"></textarea>
+        </div>
+        <div class="textarea-group">
+          <label>Output</label>
+          <textarea id="output" label="Output Text"></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
