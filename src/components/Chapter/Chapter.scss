@@ -23,7 +23,7 @@
 
       font-size: 46px;
       font-weight: 700;
-      color: var(--K800);
+      color: var(--theme-text-color);
 
       &:hover {
         color: var(--accent);
@@ -48,6 +48,7 @@
 
       font-size: 20px;
       line-height: 1.8;
+      font-weight: 500;
     }
   }
 
@@ -60,7 +61,7 @@
     .original {
       h4,
       p {
-        font-family: var(--font-chinese);
+        font-family: var(--theme-font-chinese);
 
         font-size: 22px;
         font-weight: 400;
@@ -74,7 +75,7 @@
       }
 
       p {
-        color: var(--K800);
+        color: var(--theme-text-color);
 
         .fragment {
           &--period {
@@ -96,7 +97,7 @@
 
   p {
     white-space: pre-line;
-    color: var(--K800);
+    color: var(--theme-text-color);
 
     &.empty-text {
       font-size: 18px;

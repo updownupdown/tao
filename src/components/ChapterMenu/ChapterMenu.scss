@@ -24,12 +24,21 @@
 
     font-size: 18px;
     font-weight: 700;
-    color: var(--K800);
+    color: var(--theme-text-color);
 
-    &--current,
-    &:hover {
-      background: rgba(var(--K800-rgb), 0.06);
-      color: var(--accent);
+    .theme--light & {
+      &--current,
+      &:hover {
+        background: rgba(var(--K900-rgb), 0.06);
+        color: var(--accent);
+      }
+    }
+    .theme--dark & {
+      &--current,
+      &:hover {
+        background: rgba(var(--white-rgb), 0.1);
+        color: var(--accent);
+      }
     }
   }
 }

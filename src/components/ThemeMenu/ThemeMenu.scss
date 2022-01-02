@@ -1,0 +1,127 @@
+.theme-nav {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  display: flex;
+  gap: 12px;
+
+  transform: translateX(-50%);
+}
+
+.theme-toggle {
+  $height: 28px;
+  $width: 58px;
+  $spacing: 10px;
+  $icon: 16px;
+  $toggle: $height - $spacing;
+  $toggle-spacing: (($height - $toggle) / 2);
+
+  transition: 0.25s ease background;
+  cursor: pointer;
+  position: relative;
+  width: $width;
+  height: $height;
+
+  border-radius: $height;
+  background: var(--white);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+
+  .toggle {
+    transition: 0.25s ease all;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    width: $toggle;
+    height: $toggle;
+
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .theme-nav--light & {
+    background: var(--K150);
+
+    .toggle {
+      background: var(--white);
+    }
+
+    svg path {
+      fill: var(--K800);
+    }
+
+    &.theme-toggle--color .toggle {
+      left: $toggle-spacing;
+    }
+
+    &:hover {
+      background: var(--K300);
+    }
+  }
+  .theme-nav--dark & {
+    background: var(--K800);
+
+    .toggle {
+      background: var(--K300);
+    }
+
+    svg path {
+      fill: var(--K100);
+    }
+
+    &.theme-toggle--color .toggle {
+      left: $width - $toggle - $toggle-spacing;
+    }
+
+    &:hover {
+      background: var(--K700);
+    }
+  }
+
+  .theme--sans & {
+    &.theme-toggle--font .toggle {
+      left: $toggle-spacing;
+    }
+  }
+  .theme--serif & {
+    &.theme-toggle--font .toggle {
+      left: $width - $toggle - $toggle-spacing;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    z-index: 1;
+    width: $toggle;
+    height: $toggle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    &--left {
+      left: $toggle-spacing;
+
+      //   svg path {
+      //     fill: var(--K100);
+      //   }
+    }
+    &--right {
+      left: $width - $toggle - $toggle-spacing;
+
+      //   svg path {
+      //     fill: var(--K800);
+      //   }
+    }
+  }
+
+  svg {
+    display: block;
+    width: $icon;
+    height: $icon;
+  }
+}

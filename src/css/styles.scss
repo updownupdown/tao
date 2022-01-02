@@ -1,5 +1,5 @@
 @import "./media.scss";
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500&family=Lora:wght@400;500;600;700&display=swap");
 
 $theme-colors: (
   "black": #000000,
@@ -28,11 +28,6 @@ $theme-colors: (
     --#{$name}-rgb: #{hexToRGB($color)};
   }
 
-  --font-body: "Red Hat Display", sans-serif;
-  --font-heading: "Red Hat Display", sans-serif;
-  // --font-chinese: "Noto Serif TC", serif;
-  --font-chinese: "Noto Sans TC", serif;
-
   --box-shadow-300: 1px 2px 10px rgba(0, 0, 0, 0.08);
   --box-shadow-600: 1px 2px 10px rgba(0, 0, 0, 0.04),
     6px 16px 30px rgba(0, 0, 0, 0.06);
@@ -46,15 +41,7 @@ $theme-colors: (
 body {
   position: relative;
   margin: 0;
-
-  background: var(--white);
-
-  font-family: var(--font-body);
   line-height: 1;
-}
-
-button {
-  font-family: var(--font-body);
 }
 
 .main {
@@ -68,6 +55,35 @@ button {
   @media #{$query-max-lg} {
     padding: 120px 30px 200px;
   }
+
+  &.theme {
+    &--light {
+      --theme-background: var(--white);
+      --theme-background-rgb: var(--white-rgb);
+      --theme-text-color: var(--K800);
+    }
+    &--dark {
+      --theme-background: var(--black);
+      --theme-background-rgb: var(--black-rgb);
+      --theme-text-color: var(--white);
+    }
+
+    &--sans {
+      --theme-font-body: "Red Hat Display", sans-serif;
+      --theme-font-chinese: "Noto Sans TC", sans-serif;
+    }
+    &--serif {
+      --theme-font-body: "Lora", serif;
+      --theme-font-chinese: "Noto Serif TC", serif;
+    }
+  }
+
+  font-family: var(--theme-font-body);
+  background: var(--theme-background);
+
+  button {
+    font-family: var(--theme-font-body);
+  }
 }
 
 .overlay {
@@ -80,7 +96,7 @@ button {
   right: 0;
   bottom: 0;
 
-  background: rgba(var(--white-rgb), 0.85);
+  background: rgba(var(--theme-background-rgb), 0.85);
   backdrop-filter: blur(4px);
 }
 

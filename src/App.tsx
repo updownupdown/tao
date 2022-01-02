@@ -1,16 +1,19 @@
 import React, { useState, useEffect } from "react";
 import Chapter from "./components/Chapter/Chapter";
 import Nav from "./components/Nav/Nav";
-import Grid from "./components/ChapterMenu/ChapterMenu";
-import Names from "./components/TranslationMenu/TranslationMenu";
+import ChapterMenu from "./components/ChapterMenu/ChapterMenu";
+import TranslationMenu from "./components/TranslationMenu/TranslationMenu";
+import ThemeMenu from "./components/ThemeMenu/ThemeMenu";
 import { Translations } from "./components/Translations/Translations";
 // import { Parser } from "./components/Translations/parser";
 
 function App() {
   const [chapter, setChapter] = useState(1);
   const [translation, setTranslation] = useState(0);
-  const [showGrid, setShowGrid] = useState(false);
-  const [showNames, setShowNames] = useState(false);
+  const [showChapterMenu, setShowChapterMenu] = useState(false);
+  const [showTranslationMenu, setShowTranslationMenu] = useState(false);
+  const [themeColor, setThemeColor] = useState("light");
+  const [themeFont, setThemeFont] = useState("sans");
 
   const totalChapters = 81;
   const totalTranslations = Translations.length;
@@ -46,31 +49,38 @@ function App() {
   }
 
   function showChapters() {
-    setShowGrid(!showGrid);
+    setShowChapterMenu(!showChapterMenu);
   }
 
   function showTranslations() {
-    setShowNames(!showGrid);
+    setShowTranslationMenu(!showChapterMenu);
+  }
+
+  function selectThemeColor(newTheme: string) {
+    setThemeColor(newTheme);
+  }
+  function selectThemeFont(newTheme: string) {
+    setThemeFont(newTheme);
   }
 
   function selectChapter(newChapter: number) {
     setChapter(newChapter);
-    setShowGrid(false);
+    setShowChapterMenu(false);
   }
 
   function selectTranslation(newTranslation: number) {
     setTranslation(newTranslation);
-    setShowNames(false);
+    setShowTranslationMenu(false);
   }
 
   function handleSpacebar() {
-    if (showNames) {
-      setShowNames(false);
-    } else if (showGrid) {
-      setShowGrid(false);
-      setShowNames(true);
+    if (showTranslationMenu) {
+      setShowTranslationMenu(false);
+    } else if (showChapterMenu) {
+      setShowChapterMenu(false);
+      setShowTranslationMenu(true);
     } else {
-      setShowGrid(true);
+      setShowChapterMenu(true);
     }
   }
 
@@ -91,25 +101,31 @@ function App() {
   }, [handleKeyPress]);
 
   return (
-    <div className="main">
-      {(showGrid || showNames) && (
+    <div className={`main theme--${themeColor} theme--${themeFont}`}>
+      {(showChapterMenu || showTranslationMenu) && (
         <div
           className="overlay"
           onClick={() => {
-            setShowGrid(false);
-            setShowNames(false);
+            setShowChapterMenu(false);
+            setShowTranslationMenu(false);
           }}
         />
       )}
-      {showGrid && (
-        <Grid selectChapter={selectChapter} currentChapter={chapter} />
+      {showChapterMenu && (
+        <ChapterMenu selectChapter={selectChapter} currentChapter={chapter} />
       )}
-      {showNames && (
-        <Names
+      {showTranslationMenu && (
+        <TranslationMenu
           selectTranslation={selectTranslation}
           currentTranslation={translation}
         />
       )}
+      <ThemeMenu
+        selectThemeColor={selectThemeColor}
+        selectThemeFont={selectThemeFont}
+        currentThemeColor={themeColor}
+        currentThemeFont={themeFont}
+      />
       <Chapter
         chapter={chapter}
         translation={Translations[translation]}

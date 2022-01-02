@@ -13,13 +13,13 @@
 
   background: linear-gradient(
     to top,
-    rgba(var(--white-rgb), 0.95),
-    rgba(var(--white-rgb), 0.95),
-    rgba(var(--white-rgb), 0)
+    rgba(var(--theme-background-rgb), 0.95),
+    rgba(var(--theme-background-rgb), 0.95),
+    rgba(var(--theme-background-rgb), 0)
   );
 
   @media #{$query-min-md} {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   @media #{$query-max-md} {
     padding-bottom: 12px;
@@ -55,7 +55,7 @@
   height: 42px;
 
   border: unset;
-  background: var(--white);
+
   border-radius: 50%;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.05), 2px 4px 8px rgba(0, 0, 0, 0.05);
 
@@ -65,15 +65,37 @@
 
     path {
       transition: 0.25s ease fill;
-      fill: var(--K700);
     }
   }
 
-  &:hover {
-    background: var(--K100);
+  .theme--light & {
+    background: var(--white);
 
     svg path {
-      fill: var(--accent);
+      fill: var(--K700);
+    }
+
+    &:hover {
+      background: var(--K100);
+
+      svg path {
+        fill: var(--accent);
+      }
+    }
+  }
+  .theme--dark & {
+    background: var(--K900);
+
+    svg path {
+      fill: var(--K100);
+    }
+
+    &:hover {
+      background: var(--K800);
+
+      svg path {
+        fill: var(--accent);
+      }
     }
   }
 }

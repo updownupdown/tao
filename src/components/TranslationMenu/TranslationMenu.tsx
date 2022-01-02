@@ -8,7 +8,7 @@ interface Props {
   currentTranslation: number;
 }
 
-const Nav = ({ selectTranslation, currentTranslation }: Props) => {
+const ChapterMenu = ({ selectTranslation, currentTranslation }: Props) => {
   function namesButtons() {
     return Translations.map((translation, index) => (
       <button
@@ -27,4 +27,4 @@ const Nav = ({ selectTranslation, currentTranslation }: Props) => {
   return <div className="names">{namesButtons()}</div>;
 };
 
-export default Nav;
+export default ChapterMenu;
