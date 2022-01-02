@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Chapter from "./components/Chapter/Chapter";
 import Nav from "./components/Nav/Nav";
-import Grid from "./components/Grid/Grid";
-import Names from "./components/Translations/Names";
+import Grid from "./components/ChapterMenu/ChapterMenu";
+import Names from "./components/TranslationMenu/TranslationMenu";
 import { Translations } from "./components/Translations/Translations";
 // import { Parser } from "./components/Translations/parser";
 

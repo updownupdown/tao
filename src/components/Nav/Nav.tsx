@@ -1,10 +1,10 @@
 import React from "react";
-import ArrowDown from "./ArrowDown";
-import ArrowLeft from "./ArrowLeft";
-import ArrowRight from "./ArrowRight";
-import ArrowUp from "./ArrowUp";
-import Apps from "./Apps";
-import Menu from "./Menu";
+import ArrowDown from "./icons/ArrowDown";
+import ArrowLeft from "./icons/ArrowLeft";
+import ArrowRight from "./icons/ArrowRight";
+import ArrowUp from "./icons/ArrowUp";
+import Apps from "./icons/Apps";
+import Menu from "./icons/Menu";
 import "./Nav.scss";
 
 interface Props {
