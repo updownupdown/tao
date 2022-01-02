@@ -49,27 +49,26 @@ function App() {
     }
   }
 
-  function handleBodyScroll() {
-    if (showChapterMenu || showTranslationMenu || showMainMenu) {
-      document.body.style.overflow = "unset";
-    } else {
+  const menuOpen = showChapterMenu || showTranslationMenu || showMainMenu;
+
+  useEffect(() => {
+    if (menuOpen) {
       document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
     }
-  }
+  }, [showChapterMenu, showTranslationMenu, showMainMenu]);
 
   function showChapters() {
     setShowChapterMenu(!showChapterMenu);
-    handleBodyScroll();
   }
 
   function showTranslations() {
     setShowTranslationMenu(!showTranslationMenu);
-    handleBodyScroll();
   }
 
   function showMain() {
     setShowMainMenu(!showMainMenu);
-    handleBodyScroll();
   }
 
   function selectThemeColor(newTheme: string) {
@@ -108,7 +107,7 @@ function App() {
 
   return (
     <div className={`main theme--${themeColor} theme--${themeFont}`}>
-      {(showChapterMenu || showTranslationMenu || showMainMenu) && (
+      {menuOpen && (
         <div
           className="overlay"
           onClick={() => {
