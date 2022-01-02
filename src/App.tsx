@@ -4,11 +4,13 @@ import Nav from "./components/Nav/Nav";
 import ChapterMenu from "./components/ChapterMenu/ChapterMenu";
 import TranslationMenu from "./components/TranslationMenu/TranslationMenu";
 import ThemeMenu from "./components/ThemeMenu/ThemeMenu";
+import MainMenu from "./components/MainMenu/MainMenu";
 import { Translations } from "./components/Translations/Translations";
 
 function App() {
   const [chapter, setChapter] = useState(1);
   const [translation, setTranslation] = useState(0);
+  const [showMainMenu, setShowMainMenu] = useState(false);
   const [showChapterMenu, setShowChapterMenu] = useState(false);
   const [showTranslationMenu, setShowTranslationMenu] = useState(false);
   const [themeColor, setThemeColor] = useState("light");
@@ -47,12 +49,27 @@ function App() {
     }
   }
 
+  function handleBodyScroll() {
+    if (showChapterMenu || showTranslationMenu || showMainMenu) {
+      document.body.style.overflow = "unset";
+    } else {
+      document.body.style.overflow = "hidden";
+    }
+  }
+
   function showChapters() {
     setShowChapterMenu(!showChapterMenu);
+    handleBodyScroll();
   }
 
   function showTranslations() {
-    setShowTranslationMenu(!showChapterMenu);
+    setShowTranslationMenu(!showTranslationMenu);
+    handleBodyScroll();
+  }
+
+  function showMain() {
+    setShowMainMenu(!showMainMenu);
+    handleBodyScroll();
   }
 
   function selectThemeColor(newTheme: string) {
@@ -72,24 +89,14 @@ function App() {
     setShowTranslationMenu(false);
   }
 
-  function handleSpacebar() {
-    if (showTranslationMenu) {
-      setShowTranslationMenu(false);
-    } else if (showChapterMenu) {
-      setShowChapterMenu(false);
-      setShowTranslationMenu(true);
-    } else {
-      setShowChapterMenu(true);
-    }
-  }
-
   useEffect(() => {
     function handleKeyPress(event: any) {
-      if (event.key === "ArrowLeft") chapterPrev();
-      if (event.key === "ArrowRight") chapterNext();
-      if (event.key === "ArrowDown") translationPrev();
-      if (event.key === "ArrowUp") translationNext();
-      if (event.key === " ") handleSpacebar();
+      if (event.key === "a") chapterPrev();
+      if (event.key === "d") chapterNext();
+      if (event.key === "s") translationPrev();
+      if (event.key === "w") translationNext();
+      if (event.key === "c") showChapters();
+      if (event.key === "t") showTranslations();
     }
 
     document.addEventListener("keydown", handleKeyPress);
@@ -101,7 +108,7 @@ function App() {
 
   return (
     <div className={`main theme--${themeColor} theme--${themeFont}`}>
-      {(showChapterMenu || showTranslationMenu) && (
+      {(showChapterMenu || showTranslationMenu || showMainMenu) && (
         <div
           className="overlay"
           onClick={() => {
@@ -110,6 +117,7 @@ function App() {
           }}
         />
       )}
+      {showMainMenu && <MainMenu showMainMenu={showMain} />}
       {showChapterMenu && (
         <ChapterMenu selectChapter={selectChapter} currentChapter={chapter} />
       )}
@@ -138,6 +146,7 @@ function App() {
         translationNext={translationNext}
         showChapters={showChapters}
         showTranslations={showTranslations}
+        showMain={showMain}
       />
     </div>
   );

@@ -1,10 +1,11 @@
 import React from "react";
-import ArrowDown from "./icons/ArrowDown";
-import ArrowLeft from "./icons/ArrowLeft";
-import ArrowRight from "./icons/ArrowRight";
-import ArrowUp from "./icons/ArrowUp";
-import Apps from "./icons/Apps";
-import Menu from "./icons/Menu";
+import ArrowDown from "../Icons/ArrowDown";
+import ArrowLeft from "../Icons/ArrowLeft";
+import ArrowRight from "../Icons/ArrowRight";
+import ArrowUp from "../Icons/ArrowUp";
+import Chapters from "../Icons/Chapters";
+import Translation from "../Icons/Translation";
+import Menu from "../Icons/Menu";
 import "./Nav.scss";
 
 interface Props {
@@ -14,6 +15,7 @@ interface Props {
   translationNext: () => void;
   showChapters: () => void;
   showTranslations: () => void;
+  showMain: () => void;
 }
 
 const Nav = ({
@@ -23,37 +25,38 @@ const Nav = ({
   translationNext,
   showChapters,
   showTranslations,
+  showMain,
 }: Props) => {
   return (
     <div className="nav">
       <div className="nav__group">
-        <span className="nav__group__label">Chapters</span>
-        <div className="nav__group__buttons">
-          <button className="nav-btn" onClick={chapterPrev}>
-            <ArrowLeft />
-          </button>
-          <button className="nav-btn" onClick={showChapters}>
-            <Apps />
-          </button>
-          <button className="nav-btn" onClick={chapterNext}>
-            <ArrowRight />
-          </button>
-        </div>
+        <button className="nav-btn" onClick={showMain}>
+          <Menu />
+        </button>
       </div>
 
       <div className="nav__group">
-        <span className="nav__group__label">Translations</span>
-        <div className="nav__group__buttons">
-          <button className="nav-btn" onClick={translationPrev}>
-            <ArrowDown />
-          </button>
-          <button className="nav-btn" onClick={showTranslations}>
-            <Menu />
-          </button>
-          <button className="nav-btn" onClick={translationNext}>
-            <ArrowUp />
-          </button>
-        </div>
+        <button className="nav-btn" onClick={chapterPrev}>
+          <ArrowLeft />
+        </button>
+        <button className="nav-btn" onClick={showChapters}>
+          <Chapters />
+        </button>
+        <button className="nav-btn" onClick={chapterNext}>
+          <ArrowRight />
+        </button>
+      </div>
+
+      <div className="nav__group">
+        <button className="nav-btn" onClick={translationPrev}>
+          <ArrowDown />
+        </button>
+        <button className="nav-btn" onClick={showTranslations}>
+          <Translation />
+        </button>
+        <button className="nav-btn" onClick={translationNext}>
+          <ArrowUp />
+        </button>
       </div>
     </div>
   );

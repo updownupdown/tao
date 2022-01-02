@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Apps(props: React.SVGProps<SVGSVGElement>) {
+function Chapters(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width={24}
@@ -13,11 +13,11 @@ function Apps(props: React.SVGProps<SVGSVGElement>) {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M4 8H8V4H4V8ZM10 20H14V16H10V20ZM8 20H4V16H8V20ZM4 14H8V10H4V14ZM14 14H10V10H14V14ZM16 4V8H20V4H16ZM14 8H10V4H14V8ZM16 14H20V10H16V14ZM20 20H16V16H20V20Z"
+        d="M21 19L19 18V5C19 3.9 18.1 3 17 3H7C7 1.9 7.89 1 8.99 1H19C20.1 1 21 1.9 21 3V19ZM5 5H15C16.1 5 17 5.9 17 7V23L10 20L3 23V7C3 5.9 3.9 5 5 5Z"
         fill="inherit"
       />
     </svg>
   );
 }
 
-export default Apps;
+export default Chapters;

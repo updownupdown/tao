@@ -1,18 +1,17 @@
 .theme-nav {
   position: absolute;
+  z-index: 1;
   top: 20px;
-  left: 50%;
+  right: 20px;
   display: flex;
   gap: 12px;
-
-  transform: translateX(-50%);
 }
 
 .theme-toggle {
   $height: 28px;
   $width: 58px;
   $spacing: 10px;
-  $icon: 16px;
+  $icon: 14px;
   $toggle: $height - $spacing;
   $toggle-spacing: (($height - $toggle) / 2);
 

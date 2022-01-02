@@ -1,6 +1,6 @@
 .names {
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   top: 50%;
   left: 50%;
   width: 800px;
@@ -23,7 +23,7 @@
     border-radius: 4px;
     background: transparent;
 
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--theme-text-color);
     line-height: 1.1;

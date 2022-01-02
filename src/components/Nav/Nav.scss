@@ -1,15 +1,14 @@
 @import "../../css/media.scss";
 
 .nav {
-  pointer-events: none;
+  $border-radius: 8px;
   position: fixed;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   width: 100%;
   bottom: 0;
   left: 0;
-  padding-top: 80px;
 
   background: linear-gradient(
     to top,
@@ -19,82 +18,93 @@
   );
 
   @media #{$query-min-md} {
-    padding-bottom: 30px;
+    padding: 30px 0;
   }
   @media #{$query-max-md} {
-    padding-bottom: 12px;
+    padding: 12px 0;
   }
 
   &__group {
-    pointer-events: all;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 1px;
 
-    &__buttons {
-      display: flex;
-      gap: 12px;
+    border-radius: $border-radius;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.05), 2px 4px 8px rgba(0, 0, 0, 0.05);
+
+    .theme--light & {
+      background: var(--K150);
     }
-
-    &__label {
-      font-size: 15px;
-      font-weight: 400;
-      color: var(--K600);
-    }
-  }
-}
-
-.nav-btn {
-  transition: 0.25s ease background;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-
-  border: unset;
-
-  border-radius: 50%;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05), 2px 4px 8px rgba(0, 0, 0, 0.05);
-
-  svg {
-    width: 24px;
-    height: 24px;
-
-    path {
-      transition: 0.25s ease fill;
+    .theme--dark & {
+      background: var(--black);
     }
   }
 
-  .theme--light & {
-    background: var(--white);
+  .nav-btn {
+    transition: 0.25s ease background;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: unset;
 
-    svg path {
-      fill: var(--K700);
+    @media (max-width: 420px) {
+      width: 36px;
+      height: 36px;
     }
 
-    &:hover {
-      background: var(--K100);
+    &:focus {
+      outline: none;
+    }
 
-      svg path {
-        fill: var(--accent);
+    &:first-child {
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+    &:last-child {
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+
+      path {
+        transition: 0.25s ease fill;
       }
     }
-  }
-  .theme--dark & {
-    background: var(--K900);
 
-    svg path {
-      fill: var(--K100);
-    }
-
-    &:hover {
-      background: var(--K800);
+    .theme--light & {
+      background: var(--white);
 
       svg path {
-        fill: var(--accent);
+        fill: var(--K700);
+      }
+
+      &:hover {
+        background: var(--K100);
+
+        svg path {
+          fill: var(--accent);
+        }
+      }
+    }
+    .theme--dark & {
+      background: var(--K900);
+
+      svg path {
+        fill: var(--K100);
+      }
+
+      &:hover {
+        background: var(--K800);
+
+        svg path {
+          fill: var(--accent);
+        }
       }
     }
   }
