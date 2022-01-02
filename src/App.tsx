@@ -1,11 +1,10 @@
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Chapter from "./components/Chapter/Chapter";
 import Nav from "./components/Nav/Nav";
 import Grid from "./components/Grid/Grid";
 import Names from "./components/Translations/Names";
 import { Translations } from "./components/Translations/Translations";
-
-import { Parser } from "./components/Translations/parser";
+// import { Parser } from "./components/Translations/parser";
 
 function App() {
   const [chapter, setChapter] = useState(1);
@@ -125,7 +124,7 @@ function App() {
         showChapters={showChapters}
         showTranslations={showTranslations}
       />
-      <Parser />
+      {/* <Parser /> */}
     </div>
   );
 }

@@ -16,7 +16,6 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    // justify-content: center;
     height: 50px;
     padding: 0 20px;
 
@@ -24,9 +23,11 @@
     border-radius: 4px;
     background: transparent;
 
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     color: var(--K800);
+    line-height: 1.1;
+    text-align: left;
 
     &--current,
     &:hover {

@@ -2,10 +2,9 @@ import React from "react";
 import { Original } from "../Translations/Original";
 import ReactTooltip from "react-tooltip";
 import "./Chapter.scss";
+import { dictionary } from "../Translations/dictionary";
+import clsx from "clsx";
 // import { TranslationProps } from "../Translations/Translations";
-
-// export const hanzi = require("hanzi");
-// hanzi.start();
 
 interface Props {
   chapter: number;
@@ -53,6 +52,9 @@ const Chapter = ({
       "！",
       "？",
       "：",
+      "、",
+      ")",
+      "(",
     ];
 
     return (
@@ -60,16 +62,24 @@ const Chapter = ({
         <h4>{originalText.title}</h4>
         <p>
           {splitText.map((txt, index) => {
-            // if (charactersWithoutDefinitions.includes(txt)) return txt;
-
-            // const definition = lookupCharacter(txt);
+            const definition = charactersWithoutDefinitions.includes(txt)
+              ? ""
+              : lookupCharacter(txt);
 
             return (
-              // <span key={index} data-tip={definition}>
-              <>
-                <span key={index}>{txt}</span>
+              <React.Fragment key={index}>
+                <span
+                  className={clsx(
+                    "fragment",
+                    txt === "。" && "fragment--period",
+                    definition !== "" && "fragment--has-tooltip"
+                  )}
+                  data-tip={definition}
+                >
+                  {txt}
+                </span>
                 {txt === "。" && <br />}
-              </>
+              </React.Fragment>
             );
           })}
         </p>
@@ -77,18 +87,33 @@ const Chapter = ({
     );
   }
 
-  // function lookupCharacter(character: string) {
-  //   const definition = hanzi.definitionLookup(character);
+  function lookupCharacter(character: string) {
+    const definitions: string[] = [];
+    const traditional = dictionary.find((obj) => obj.t == character);
+    const simplified = dictionary.find((obj) => obj.s == character);
 
-  //   if (definition === undefined) {
-  //     console.warn(character + " has no definition!");
-  //     return "No definition found.";
-  //   }
+    if (traditional === undefined && simplified === undefined) {
+      console.warn(character + " has no definition!");
+      return "No definition found.";
+    }
 
-  //   const mergedDefinitions = definition.map((def: any) => def.definition);
+    let traditionalString = "";
+    let simplifiedString = "";
 
-  //   return mergedDefinitions.join("\n\n");
-  // }
+    if (traditional !== undefined) {
+      traditionalString = traditional.d.join(", ");
+      definitions.push(traditionalString);
+    }
+
+    if (simplified !== undefined) {
+      simplifiedString = simplified.d.join(", ");
+
+      if (simplifiedString !== traditionalString)
+        definitions.push(simplifiedString);
+    }
+
+    return definitions.join("\n\n");
+  }
 
   return (
     <div className="chapter">

@@ -47,7 +47,6 @@
       white-space: pre-line;
 
       font-size: 18px;
-
       line-height: 1.8;
     }
   }
@@ -80,6 +79,16 @@
         .fragment {
           &--period {
             padding-bottom: 20px;
+          }
+
+          &--has-tooltip {
+            transition: 0.1s ease color;
+            cursor: pointer;
+            padding-bottom: 20px;
+
+            &:hover {
+              color: var(--accent);
+            }
           }
         }
       }
