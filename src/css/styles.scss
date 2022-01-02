@@ -58,10 +58,16 @@ button {
 }
 
 .main {
-  padding: 200px 40px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
+
+  @media #{$query-min-lg} {
+    padding: 200px 40px;
+  }
+  @media #{$query-max-lg} {
+    padding: 120px 30px 200px;
+  }
 }
 
 .overlay {
