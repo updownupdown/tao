@@ -10,21 +10,29 @@ interface Props {
 
 const ChapterMenu = ({ selectTranslation, currentTranslation }: Props) => {
   function namesButtons() {
-    return Translations.map((translation, index) => (
-      <button
-        key={index}
-        className={clsx(
-          "names-btn",
-          currentTranslation === index && "names-btn--current"
-        )}
-        onClick={() => selectTranslation(index)}
-      >
-        {translation.name}
-      </button>
-    ));
+    if (Translations instanceof Array) {
+      return Translations.map((translation, index) => (
+        <button
+          key={index}
+          className={clsx(
+            "names-btn",
+            currentTranslation === index && "names-btn--current"
+          )}
+          onClick={() => selectTranslation(index)}
+        >
+          {translation.name}
+        </button>
+      ));
+    }
   }
 
-  return <div className="names">{namesButtons()}</div>;
+  return (
+    <div className="names">
+      <div className="names__content">
+        <div className="names__content__center">{namesButtons()}</div>
+      </div>
+    </div>
+  );
 };
 
 export default ChapterMenu;

@@ -4,12 +4,11 @@ import ReactTooltip from "react-tooltip";
 import "./Chapter.scss";
 import { dictionary } from "../Translations/dictionary";
 import clsx from "clsx";
-// import { TranslationProps } from "../Translations/Translations";
+import { TranslationProps } from "../Translations/Translations";
 
 interface Props {
   chapter: number;
-  // translation: TranslationProps;
-  translation: any;
+  translation: TranslationProps;
   showChapters: () => void;
   showTranslations: () => void;
 }
@@ -21,15 +20,15 @@ const Chapter = ({
   showTranslations,
 }: Props) => {
   function getChapter() {
-    const chapterText = translation.component.filter(
-      (item: any) => item.chapter === chapter
-    )[0];
+    if (translation.component instanceof Array) {
+      const chapterText = translation!.component!.filter(
+        (item: any) => item.chapter === chapter
+      )[0];
 
-    return chapterText !== undefined ? (
-      <p>{chapterText.content}</p>
-    ) : (
-      <p className="empty-text">[Chapter not available]</p>
-    );
+      return <p>{chapterText.content}</p>;
+    }
+
+    return <p className="empty-text">[Chapter not available]</p>;
   }
 
   function getOriginal() {

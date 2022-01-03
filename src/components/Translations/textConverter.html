@@ -79,9 +79,12 @@
         let mergedText = "";
 
         for (let i = 0; i < cleanedSplitText.length; i++) {
-          const text = cleanedSplitText[i].trim();
+          let text = cleanedSplitText[i].trim();
 
-          // console.log(text);
+          // Remove first/last characters if they are quotes
+          if (text.charAt(0) === '"' && text.charAt(text.length - 1) === '"') {
+            text = text.slice(1, -1);
+          }
 
           mergedText += `{ chapter: ${i + 1}, content: \`${text}\`},`;
         }
@@ -91,9 +94,9 @@
         const fileFooter = "];";
         mergedText = fileHeader + mergedText + fileFooter;
 
-        // console.log(mergedText);
-
         output.value = mergedText;
+
+        console.log("Chapters found: " + cleanedSplitText.length);
       }
 
       function copyToClipboard() {
