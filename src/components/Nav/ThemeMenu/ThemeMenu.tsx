@@ -1,8 +1,8 @@
 import React from "react";
-import Day from "../Icons/Day";
-import Night from "../Icons/Night";
-import Sans from "../Icons/Sans";
-import Serif from "../Icons/Serif";
+import Day from "../../Icons/Day";
+import Night from "../../Icons/Night";
+import Sans from "../../Icons/Sans";
+import Serif from "../../Icons/Serif";
 import "./ThemeMenu.scss";
 
 interface Props {

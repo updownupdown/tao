@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import { Translations } from "../Translations/Translations";
+import { Translations } from "../../Translations/TranslationsList";
 import "./TranslationMenu.scss";
 
 interface Props {

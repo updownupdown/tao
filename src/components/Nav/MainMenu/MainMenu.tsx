@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import React from "react";
-import Close from "../Icons/Close";
+import Close from "../../Icons/Close";
 import "./MainMenu.scss";
 
 interface Props {

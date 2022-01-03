@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import Chapter from "./components/Chapter/Chapter";
 import Nav from "./components/Nav/Nav";
 import ChapterMenu from "./components/ChapterMenu/ChapterMenu";
-import TranslationMenu from "./components/TranslationMenu/TranslationMenu";
-import ThemeMenu from "./components/ThemeMenu/ThemeMenu";
-import MainMenu from "./components/MainMenu/MainMenu";
-import { Translations } from "./components/Translations/Translations";
+import TranslationMenu from "./components/Nav/TranslationMenu/TranslationMenu";
+import ThemeMenu from "./components/Nav/ThemeMenu/ThemeMenu";
+import MainMenu from "./components/Nav/MainMenu/MainMenu";
+import { Translations } from "./components/Translations/TranslationsList";
 
 function App() {
   const [chapter, setChapter] = useState(1);
@@ -134,7 +134,7 @@ function App() {
       />
       <Chapter
         chapter={chapter}
-        translation={Translations[translation]}
+        translation={translation}
         showChapters={showChapters}
         showTranslations={showTranslations}
       />
