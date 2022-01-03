@@ -165,11 +165,11 @@ Throw away the latter and adopt the former.`,
     chapter: 13,
     content: `Promotion and demotion are both horrifying,
 Regarding huge trouble as one's own body.
-What do we mean by ""Promotion and demotion are both horrifying""?
+What do we mean by "Promotion and demotion are both horrifying"?
  Being promoted is despicable,
  It is frightening to get it. It is frightening to lose it.
- This is the meaning of ""Promotion and demotion are both horrifying"".
-What do we mean by ""regarding huge trouble as our own body""?
+ This is the meaning of "Promotion and demotion are both horrifying".
+What do we mean by "regarding huge trouble as our own body"?
 The reason that I have trouble, is because I have a body.
  If I do not possess a body, what trouble do I have?
 Therefore, respecting your body over the Universe,

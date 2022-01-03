@@ -86,7 +86,7 @@ Who is able to make turbid water grow gradually clear by reducing it to quiescen
   {
     chapter: 17,
     content: `Those of preëminent wisdom and purity knew [this TAO] intuitively from their birth, and so possessed it. Those of the second rank—the men of virtue—approached it nearly, and eulogised it. Those of the third rank—who were still above the commonalty—stood in awe of it. Those of the lowest rank held it in light esteem. Their belief in it was superficial, or imperfect; while there were even some who did not believe in it at all.
-[The first] spoke only with forethought and calculation, as though honouring their words. When their [public] labours were achieved, and affairs progressed unimpeded, the people all said, ""This is our natural and spontaneous condition.""`,
+[The first] spoke only with forethought and calculation, as though honouring their words. When their [public] labours were achieved, and affairs progressed unimpeded, the people all said, "This is our natural and spontaneous condition."`,
   },
   {
     chapter: 18,
@@ -110,7 +110,7 @@ The world is joyful and merry as on a day of sacrifice, or as those who mount a 
   {
     chapter: 22,
     content: `[In cultivating TAO] there are first the sprouts; then perfection. First, there is perversion; then rectification. First there is hollowness [receptivity]; then plenitude. First there is destruction [of the old]; then renovation. First there is humility; then acquisition. Self-sufficiency is followed by suspicion [on the part of others]. Therefore the Sage preserves unity [in his heart] and becomes a pattern to the whole world. He does not say himself that he can see, and therefore he is perspicacious. He does not say himself that he is right, and therefore he is manifested to all. He does pot praise himself, and therefore his merit is recognised. He is not self-conceited, and therefore he increases [in knowledge]. And as he never strives with anybody, so the world does not strive with him.
-Can that saying of the olden times—""First the sprouts, then perfection""—be called meaningless? The attainment of genuine perfection implies a reversion [to the original nature of man].`,
+Can that saying of the olden times—"First the sprouts, then perfection"—be called meaningless? The attainment of genuine perfection implies a reversion [to the original nature of man].`,
   },
   {
     chapter: 23,
@@ -372,7 +372,7 @@ Wherefore, others cannot be familiar with such, nor yet keep at a distance from 
     chapter: 57,
     content: `[The cultivator of TAO] uses uprightness in governing his State, exceptional sagacity in war, and inaction in obtaining the Empire.
 How do I know that such is the case? By this:—When there are many prohibitions in the Empire, the people become the more impoverished. When the people accumulate excess of wealth and goods, both State and family become gradually demoralised. When men are overskilful, the use of fantastical things gradually arises. When instruments of punishment gradually come into play, robbers increase in number.
-Wherefore the Sage says, ""I do nothing, and the people reform of their own accord. I love quietude, and the people become spontaneously upright. I take no measures, and the people enrich themselves. I have no desires, and the people naturally become simple.""`,
+Wherefore the Sage says, "I do nothing, and the people reform of their own accord. I love quietude, and the people become spontaneously upright. I take no measures, and the people enrich themselves. I have no desires, and the people naturally become simple."`,
   },
   {
     chapter: 58,
@@ -446,7 +446,7 @@ This may be called the virtue which does not contend; the power of utilising men
   },
   {
     chapter: 69,
-    content: `There was a saying among the military commanders [of old]:—""I do not venture to act the host—q.d., to give battle; I prefer to be the guest—to await the attack. I do not venture to advance an inch; I prefer to retire a foot."" This may be called operating negatively, and appropriating [the enemy's possessions] without infringing propriety. Were this policy pursued, there would be no withstanding [of our arms], and capture might be effected without striking a blow.
+    content: `There was a saying among the military commanders [of old]:—"I do not venture to act the host—q.d., to give battle; I prefer to be the guest—to await the attack. I do not venture to advance an inch; I prefer to retire a foot." This may be called operating negatively, and appropriating [the enemy's possessions] without infringing propriety. Were this policy pursued, there would be no withstanding [of our arms], and capture might be effected without striking a blow.
 There is no greater calamity than that of despising an enemy. By underestimating the enemy one brings about the loss of [the three things] I prize. Wherefore when opposing forces meet in battle, it is the compassionate who conquer.`,
   },
   {

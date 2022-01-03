@@ -21,7 +21,7 @@ Also claim.
 The tones and the notes
 Are but modifications,
 And before and behind
-Only changed situations.""
+Only changed situations."
 Hence it is that the Sage works when apparently doing nothing, and instructs without uttering a word, ever remembering how all things in nature work silently together; coming into being and possessing nothing; fulfilling the purpose for which they were created without relying on the help of others; advancing to maturity and yet unable to remain in a state of completeness; and yet it is because of this very incapacity for continuance that they are able to continue.`,
   },
   {
@@ -36,7 +36,7 @@ Therefore it is that the wise Ruler, acting on these principles, seeks to keep t
 “ Blunts the sharp points,
 Sets in order the tangles,
 Attempers the light,
-Brings the atoms together. ""
+Brings the atoms together. "
 Oh, how pure and perfect He is, as He stands before us as the Great Everlasting Preserver.
 I know not His origin, but He would appear to have existed before the Lord of Heaven was.`,
   },
@@ -52,7 +52,7 @@ But not so with words, for much talking leads to exhaustion; therefore he who is
     content: `It was written of old
 “ The Spirit of the Valley never dies;
 The mystic Mother, out whose pregnant womb All things have issue. Hence, too, she is called The Root of Nature. Only hold to this,
-And there will need no labour for its use. ""`,
+And there will need no labour for its use. "`,
   },
   {
     chapter: 7,
@@ -100,12 +100,12 @@ This is why he who does honour to his own person, or he who bestows the same lov
   },
   {
     chapter: 14,
-    content: `That which you look at and cannot see, is called "" invisible.""
+    content: `That which you look at and cannot see, is called " invisible."
 That which you listen to and cannot hear, is called “ inaudible.”
-That which you seize upon and cannot grasp, is called "" intangible.""
+That which you seize upon and cannot grasp, is called " intangible."
 These three definitions are difficult of realisation when taken singly, let us therefore try what can be done by bringing them together and uniting them in One.
 The three negations now form a single combination, but if we scrutinise it closely, no matter in what aspect we may regard it, we shall find nothing either hidden or revealed; and let us be careful not to define it or give it a name, or it will escape from us and become even more subtle than it was before.
-This is what is meant by “ seeking to define the indefinable,"" and "" to establish a resemblance between things which have no real existence.”
+This is what is meant by “ seeking to define the indefinable," and " to establish a resemblance between things which have no real existence.”
 God is indeed a deep mystery. We cannot recognise His presence; if we advance towards Him we cannot see what is behind Him; if we follow Him we cannot see what is before Him. Yet, if we would gain a knowledge of our present lives, we must hold on to the God of the Past, and the only clue which will lead us up to Him is a knowledge of the processes which formed the beginning of that Past.`,
   },
   {
@@ -140,7 +140,7 @@ And so his body passes without harm.`,
 Their successors confined themselves to expressing their admiration and love for Him.
 Those who followed, only feared Him.
 Then came those who were dissatisfied with Him.
-Insufficient faith leads to no faith, and there came a time when there was such a falling -off, both in their words and actions, that even the people were led to say— “ We are self-created. ""`,
+Insufficient faith leads to no faith, and there came a time when there was such a falling -off, both in their words and actions, that even the people were led to say— “ We are self-created. "`,
   },
   {
     chapter: 18,
@@ -153,7 +153,7 @@ It may be considered that these three conditions have not been set forth with su
   },
   {
     chapter: 20,
-    content: `There would be nothing very grievous in renouncing study, for it matters very little, after all, whether we use the character "" wei ” or the character "" ah "" for yes; and such knowledge cannot be compared with that which enables us to discriminate between good and evil, and to know that there is a sense of fear in the human heart which cannot be got rid of. Alas! the world is overgrown with weeds, and it is almost impossible to keep them within due bounds. The mass of the people thrive and enjoy themselves like cattle in a rich pasture, and are as happy as he who stands on an elevated terrace in spring. But I, alas! am as a solitary ship at anchor on an unknown shore, - like an infant before it has advanced to the immaturity of childhood.
+    content: `There would be nothing very grievous in renouncing study, for it matters very little, after all, whether we use the character " wei ” or the character " ah " for yes; and such knowledge cannot be compared with that which enables us to discriminate between good and evil, and to know that there is a sense of fear in the human heart which cannot be got rid of. Alas! the world is overgrown with weeds, and it is almost impossible to keep them within due bounds. The mass of the people thrive and enjoy themselves like cattle in a rich pasture, and are as happy as he who stands on an elevated terrace in spring. But I, alas! am as a solitary ship at anchor on an unknown shore, - like an infant before it has advanced to the immaturity of childhood.
 I stand alone amidst an innumerable host living as if there were no return to the state from which they came.
 Yes! It must be that the mass of mankind have been granted a superfluity of gifts, whilst I, alone, have been neglected and passed by, for my judgement is weak and my mind is full of doubt.
 The vulgar are enlightened and quick witted, whilst I, cannot penetrate the darkness which surrounds me.
@@ -180,7 +180,7 @@ To straighten the crooked,
 To till up the hollows,
 To renew the worn out,-
 Is what few attain to
-Though many attempt it. ""
+Though many attempt it. "
 It is because the Sage unites these powers in his own person that he is rendered capable of becoming a model for the whole world. He casts a bright light around him, because he has no wish to shine; he stands out prominently from others, because he is filled with humility; and it is because he is free from self -assertion, that his merit is acknowledged. It is because of his self -abnegation that his work endures, and it is because he is non contentious, that there is no power upon earth capable of opposing him.
 How then, may I ask, can the old saying I have quoted be regarded as a mere repetition of empty words? Verily, it is so comprehensive that it would be difficult to find anything which is not included in it.`,
   },
@@ -216,7 +216,7 @@ The “ Mother ” of all things.
 I, in my ignorance,
 Knowing no name for Him,
 Speak of Him only
-As “ God, "" the Eternal,
+As “ God, " the Eternal,
 Thus in one word.
 Including His attributes:
 He, the All-Knowing,
@@ -243,7 +243,7 @@ A good reckoner needs no tablets.
 A good smith needs no wooden bars, yet the doors he fastens cannot be opened.
 A skilful joiner needs no cords to keep his work together.
 In the same manner, it is through the skill and ability of the Sage, that his fellow -men are aided without one of them being discarded or lost, and it is the same when he deals with the brute creation or material objects.
-This is what is called being "" doubly enlightened,""
+This is what is called being " doubly enlightened,"
 and hence it is that the skilful man becomes the unskilful man's master, and the unskilful man becomes the skilful man's slave.
 When the slave does not honour his master, and the master does not love his slave, although they may both have a knowledge of what is suitable, they will be guilty of gross stupidity.
 This may be considered an abstract of the leading principles belonging to a very difficult and subtle subject.`,
@@ -263,14 +263,14 @@ Shall serve as a model
 To all in the Empire.
 Hence it is that his virtue
 Shall be lasting and fail not
-Till merged in the infinite.""
+Till merged in the infinite."
 “ He who makes known his glory
 And sets shame behind him,
 Shall be like a valley
 In which all take refuge.
 Abounding in virtue
 His gifts shall suffice him
-Till restored to his elements. ""
+Till restored to his elements. "
 It is out of the simple elements into which every thing in nature résolves itself that all material objects are formed: and in like manner the Sage, by making use of the constituents he finds at hand, is able to build up a stable government and establish laws, which shall not be unduly severe on a substantial basis.`,
   },
   {
@@ -283,7 +283,7 @@ The rest respire,
 While some are weak
 The rest are strong,
 While some stand still.
-The rest move on.""
+The rest move on."
 Therefore the Wise -man endeavours to keep within due bounds, and avoid all exaggeration, luxury, and extravagance.`,
   },
   {
@@ -303,7 +303,7 @@ Truly, he who kills numbers of men, should mourn over them and weep over them, a
   },
   {
     chapter: 32,
-    content: `"" God is unchanging and has no name.”
+    content: `" God is unchanging and has no name.”
 Now, although this statement is so short and so simple, the world cannot take it in. Yet if Kings and Princes were but to receive it, there is nothing under Heaven which would not resort to them, and it would produce a spirit of harmony which would descend upon the Empire like a fragrant dew, so that the people would no longer require to receive orders from their superiors, but would be rendered capable of controlling their own actions.
 But when a name was given to the Great First Cause, which has been continued to this day, the knowledge I speak of became arrested, and we soon cease to be familiar with that which is withheld from us.
 Ah! if the right knowledge of God, were but spread through the Empire, it would become like the Ocean and great rivers into which the rivulets and streams continuously flow.`,
@@ -361,7 +361,7 @@ The earth, through its repose,THE TWO- TIM-KING. The gods, through their spiritu
 The vallies, through their fruitfulness,
 Living creatures, through their fecundity, Kings and Princes, that the world might be well governed.
 These were the causes which led to this union, for -Without purity, the heavens would have been in danger of being rent; without repose, the earth would have been in danger of becoming unstable; without spirituality, the Gods would have been in danger of becoming extinct; without fruitfulness, the vallies would have been in danger of becoming deserts; without fecundity, living things would have been in danger of dying out; and without humility, Kings and Princes would have been incapable of good government, and would have been in danger of being overthrown.
-From this last we learn, that to honour the needy and to exalt the lowly, is the very root and ſounda tion of all power, and it is for this reason that Kings and Princes, when speaking of themselves, use depreciatory terms, such as “ the fatherless one,” or “ the lone one,"" or "" the solitary one,” and does not this of itself show us, that they regarded humility as the true foundation upon which all action should be based. They knew that to lay down many
+From this last we learn, that to honour the needy and to exalt the lowly, is the very root and ſounda tion of all power, and it is for this reason that Kings and Princes, when speaking of themselves, use depreciatory terms, such as “ the fatherless one,” or “ the lone one," or " the solitary one,” and does not this of itself show us, that they regarded humility as the true foundation upon which all action should be based. They knew that to lay down many
 foundations, is to have no foundation, and so it was that they had no wish to have either the dazzling splendour of a precious gem, or the hardness and incompressibility of a piece of stone.`,
   },
   {
@@ -382,7 +382,7 @@ They seek to rise, and grovel on the ground; Their highest virtue, in low depths
   {
     chapter: 42,
     content: `One,was created by God. From One, came Two; Two, produced Three; and from Three, all things proceeded in a continuous succession, emerging from darkness into light, and brought into harmony by the divine afflatus.
-As I have already said, Kings and Princes, when speaking of themselves, do so in terms of disparagement, such as “the fatherless one ” or “ the solitary one,"" or "" the worthless one,"" for: “ He who humbleth himself shall be exalted,” and “ He who exalteth himself shall be humbled. ”
+As I have already said, Kings and Princes, when speaking of themselves, do so in terms of disparagement, such as “the fatherless one ” or “ the solitary one," or " the worthless one," for: “ He who humbleth himself shall be exalted,” and “ He who exalteth himself shall be humbled. ”
 This is a principle which other men have taught, and it is what I also teach. No opposition or obstruction can destroy it, and this is why I have made it the groundwork of my teaching.`,
   },
   {
@@ -599,12 +599,12 @@ For Heaven bestows the power of loving on those it would succour and protect.`,
 The best fighter, is he who can control his temper.
 The greatest victories, are those gained without strife.
 He who knows how to make himself subservient to others, will be best able to make the best use of them.
-This is what is meant when men speak of “ acting in a peaceful spirit ”; of “ making the best use of men's energies ”; and of "" seeking to work in harmony with Heaven.” Which last, the ancients regarded as the highest aim of all human effort.`,
+This is what is meant when men speak of “ acting in a peaceful spirit ”; of “ making the best use of men's energies ”; and of " seeking to work in harmony with Heaven.” Which last, the ancients regarded as the highest aim of all human effort.`,
   },
   {
     chapter: 69,
-    content: `It was once said by a military leader, “ When I find I cannot act the host ” —that is attack— “ I play the guest "" —that is, act on the defensive—“ and when I find I cannot advance an inch, I retire an ell. ""
-So it is that we speak of ""making progress ” when we do not advance; of "" holding our own "" when we have no hands to grasp with; of ""out-maneuvring the enemy ” when there is no one to oppose; and of "" defending our position "" when we have no weapons.
+    content: `It was once said by a military leader, “ When I find I cannot act the host ” —that is attack— “ I play the guest " —that is, act on the defensive—“ and when I find I cannot advance an inch, I retire an ell. "
+So it is that we speak of "making progress ” when we do not advance; of " holding our own " when we have no hands to grasp with; of "out-maneuvring the enemy ” when there is no one to oppose; and of " defending our position " when we have no weapons.
 It is a great misfortune to hold an enemy in contempt, for it may lead to the loss of all that we most value; and hence it is that when soldiers engage in close combat, the victory will belong to him who is actuated by the highest motive-that is, love for his family and country.`,
   },
   {

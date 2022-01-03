@@ -557,9 +557,9 @@ The mediocre sometimes follows sometimes not.
 Hearing about the Tao Way, the ignorant foolishly amuses.
 Wouldn't be the Tao Way, if an ignorant doesn't behave foolishly.
 That is why it is said:
-""The ignorant doesn't appreciate an enlightened person,
+"The ignorant doesn't appreciate an enlightened person,
 A good advice is seen worthless,
-A good path to follow is ignored.""
+A good path to follow is ignored."
 The Wise Person looks empty like a valley,
 The pure Virtue looks to be without core,
 It's difficult to see the end of the extended full.
@@ -764,10 +764,10 @@ Too many laws attract crimes,
 Too much preparation for the war, brings war,
 The multitude of wishes brings conflicts amongst people.
 That is why the Wise One says:
-""Don't have too many laws
+"Don't have too many laws
 And the people will govern themselves.
 Think of peace and the people won't suffer.
-Live a simple life and people will live in harmony.""`,
+Live a simple life and people will live in harmony."`,
   },
   {
     chapter: 58,

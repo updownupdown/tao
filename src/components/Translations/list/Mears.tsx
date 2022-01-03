@@ -18,7 +18,7 @@ In a depth, still deeper yet, is the Door of many mysteries.`,
 Beauty, cleft asunder, is ugliness.
 All men know the existence of Love.
 Love, cleft asunder, is hatred.
-Therefore ""possessions"" and ""Inner Life"" interdepend in life.
+Therefore "possessions" and "Inner Life" interdepend in life.
 Difficult and easy interdepend in completeness.
 Long and short interdepend in form.
 High and low interdepend in alternation.
@@ -153,14 +153,14 @@ That is why the self-controlled man occupies himself with the unseen, he does no
     content: `Dread glory as you dread shame.
 Prize great calamity as you prize your body.
 What does this mean:
-""Dread glory as you dread shame""?
+"Dread glory as you dread shame"?
 Glory comes from below.
 Obtain it, you are afraid of shame;
 Lose it, you are still afraid of shame.
 That is why it is said;
-""Dread glory as you dread shame.""
+"Dread glory as you dread shame."
 What does this mean:
-""Prize great calamity as you prize your own body""?
+"Prize great calamity as you prize your own body"?
 We who meet with great calamities, meet them because we have a body.
 If we had not a body what calamity could reach us?
 Therefore he who honours the kingdom as his body can govern the kingdom.
@@ -225,7 +225,7 @@ The people did not trust the rulers.
 The rulers were grave, their words were precious.
 The people having finished their work,
 and brought it to a successful issue, said:
-""We affirm the Self.""`,
+"We affirm the Self."`,
   },
   {
     chapter: 18,
@@ -306,7 +306,7 @@ He boasts not of self, therefore he has merit;
 He glorifies not himself, therefore he endures.
 The Master indeed does not strive, yet no one in the world can strive against him.
 The words of the Ancients were not empty words:
-""That which is incomplete becomes complete.""
+"That which is incomplete becomes complete."
 Acquire completeness by returning it.`,
   },
   {
@@ -505,7 +505,7 @@ Thus he is able to perfect his greatness.`,
   },
   {
     chapter: 35,
-    content: `Hold fast the idea of ""The Great,""
+    content: `Hold fast the idea of "The Great,"
 Then all men will be drawn to you.
 They will come to you and receive no hurt,
 But rest, peace and great calm.
@@ -628,7 +628,7 @@ Yet princes and rulers may thus be named.
 Therefore some are increased by being diminished,
 And some are diminished by being increased.
 That which men have taught I also shall teach:
-""He who is strong and violent shall not meet with easy death.""
+"He who is strong and violent shall not meet with easy death."
 I shall in this way teach fundamentals.`,
   },
   {
@@ -973,9 +973,9 @@ The Master indeed is great, yet he also seems to have no intelligence.
 As regards our intelligence, its smallness is of long continuance.
 The Master and I have three treasures,
 We hold them and prize them.
-The first is called ""Deep Love,""
-The second is called ""Protectiveness,""
-The third is called ""Not planning to be first.""
+The first is called "Deep Love,"
+The second is called "Protectiveness,"
+The third is called "Not planning to be first."
 Having Deep Love, you then can have courage.
 Having Protectiveness, you then can give freely.
 Not planning to be first, you will be a perfect instrument that will endure.
@@ -1000,7 +1000,7 @@ Of Old it was man's highest aim.`,
   {
     chapter: 69,
     content: `A great soldier used to say:
-""I plan not to be a Lord, but to be a follower; I plan not to advance an inch, but to recede a foot.
+"I plan not to be a Lord, but to be a follower; I plan not to advance an inch, but to recede a foot.
 This is called:
 Advancing with the advantage of Inner Life, baring the arm with the energy of Inner Life, grasping a weapon with the force of Inner Life, meeting the foe as a soldier of Inner Life.
 There is no calamity greater than lightly to engage in war.
@@ -1121,10 +1121,10 @@ That is why the self-controlled man acts without looking for reward, he brings t
 None is weaker than water.
 Bur in overcoming that which is firm and strong
 Nothing can equal it.
-It is easy to know the inner meaning of this: ""That which is weak conquers the strong, that which is soft conquers the hard.""
+It is easy to know the inner meaning of this: "That which is weak conquers the strong, that which is soft conquers the hard."
 All men know this, No one is able to practice it.
 That is why the self-controlled man says:
-""He who fears the reproach of the Kingdom is called Ruler of the Land. He who bears the woes of the Kingdom is called King of the land.""
+"He who fears the reproach of the Kingdom is called Ruler of the Land. He who bears the woes of the Kingdom is called King of the land."
 True words in paradox.`,
   },
   {

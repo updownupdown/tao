@@ -143,7 +143,7 @@ He that is worn out shall be renewed.
 He that is diminished shall succeed.
 He that is increased shall be misled. ”.
 Therefore the sage embraces Unity, and is a pattern for all the world. He is not self displaying, and, therefore, he shines. He is not self-approving, and, therefore, he is distinguished. He is not self -praising, and, therefore, he has merit. He is not self-exalting,  and, therefore, he stands high. And inasmuch as he does not strive, no one in all the world strives with him.
-That ancient saying, “He that humbles (himself) shall be preserved entire,"" Oh, it is no vain utterance! Verily, he shall be returned home entire (to his origin. See xvi.).
+That ancient saying, “He that humbles (himself) shall be preserved entire," Oh, it is no vain utterance! Verily, he shall be returned home entire (to his origin. See xvi.).
 `,
   },
   {

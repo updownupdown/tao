@@ -422,8 +422,8 @@ and be free of your problems.
 What is really the difference between social classes?
 Is it like the difference between good and bad?
 between theism and atheism?
-""That's the way it's always been done""
-""Everybody else is doing it""
+"That's the way it's always been done"
+"Everybody else is doing it"
 how artificial!
 Everyone else is happy
 celebrating the sacrifice of the lamb or the Son
@@ -485,9 +485,9 @@ ambitionless, yet followed by all.
 Do not argue
 and no one will argue with you.
 These sayings,
-""To remain whole, be twisted,"" or
-""Yield and overcome,"" or
-""Blessed are the meek, for they shall inherit the earth,""
+"To remain whole, be twisted," or
+"Yield and overcome," or
+"Blessed are the meek, for they shall inherit the earth,"
 are not idle words.
 It is the way of the earth.`,
   },
@@ -548,7 +548,7 @@ or god or goddess, or natural law, or physics.
 Still, it really has no name.
 The way, or the Dao, is simply the nickname I give it.
 If I felt compelled to call it something else,
-I'd call it ""great"" because it extends forever
+I'd call it "great" because it extends forever
 and in going on forever,
 it returns back to itself.
 The Dao is great, so is the sky, the earth,
@@ -626,7 +626,7 @@ All power is there
 all simplicity
 all wholeness.
 When power is divided, it is cut up up into departments, chain stores, churches, vice presidencies and district managers, ...
-So they say, ""the best sculptor does the least carving.""`,
+So they say, "the best sculptor does the least carving."`,
   },
   {
     chapter: 29,
@@ -1413,7 +1413,7 @@ only by living simply can one be truly generous
 only by humility does one become the leader.
 Today your courage is based on the ease of attack and victory, your generosity on your wealth, not poverty, and your humility on being the first, not the last. You will die, and it will all pass.
 But compassion cannot fight without winning, or give without gaining, or be nobody without being somebody.
-Nature gives a natural defense of lowliness -- like the ""death"" of the possum, or the bared neck of the wolf, the sea depths of the ancient coelacanth -- to that which it wants to protect.`,
+Nature gives a natural defense of lowliness -- like the "death" of the possum, or the bared neck of the wolf, the sea depths of the ancient coelacanth -- to that which it wants to protect.`,
   },
   {
     chapter: 68,

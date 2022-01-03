@@ -183,8 +183,8 @@ He who is superior is also someone's subordinate.
 Receiving favor and loosing it both cause alarm.
 That is what is meant by success is as dangerous as failure.
 What does it mean that we are often our own worst enemy?
-The reason I have an enemy is because I have ""self"".
-If I no longer had a ""self"", I would no longer have an enemy.
+The reason I have an enemy is because I have "self".
+If I no longer had a "self", I would no longer have an enemy.
 Love the whole world as if it were your self;
 then you will truly care for all things.`,
   },
@@ -262,8 +262,8 @@ If you don't trust the people,
 they will become untrustworthy.
 The best leaders value their words, and use them sparingly.
 When she has accomplished her task,
-the people say, ""Amazing:
-we did it, all by ourselves!""`,
+the people say, "Amazing:
+we did it, all by ourselves!"`,
   },
   {
     chapter: 18,
@@ -357,8 +357,8 @@ she becomes a person of merit.
 Because she wants nothing from the world,
 the world cannot overcome her.
 When the ancient Masters said,
-""If you want to become whole,
-then first let yourself be broken,""
+"If you want to become whole,
+then first let yourself be broken,"
 they weren't using empty words.
 All who do this will be made complete.`,
   },
@@ -382,8 +382,8 @@ If you open yourself to virtue,
 virtue will become a part of you.
 If you open yourself to loss,
 the lost are glad to see you.
-""When you do not trust people,
-people will become untrustworthy.""`,
+"When you do not trust people,
+people will become untrustworthy."`,
   },
   {
     chapter: 24,
@@ -741,7 +741,7 @@ But the noble ones take these as their titles.
 In loosing, much is gained,
 and in gaining, much is lost.
 What others teach I too will teach:
-""The strong and violent will not die a natural death.""`,
+"The strong and violent will not die a natural death."`,
   },
   {
     chapter: 43,
@@ -1072,8 +1072,8 @@ don't give him gifts and offerings.
 These things are not as valuable
 as teaching him about the Tao.
 Why was the Tao esteemed by the ancient Masters?
-Is it not said: ""With it we find without looking.
-With it we find forgiveness for our transgressions.""
+Is it not said: "With it we find without looking.
+With it we find forgiveness for our transgressions."
 That is why the world cannot under stand it.`,
   },
   {
@@ -1198,10 +1198,10 @@ This is called attaining harmony with the heavens.`,
   {
     chapter: 69,
     content: `There is an old saying:
-""It is better to become the passive
+"It is better to become the passive
 in order to see what will happen.
 It is better to retreat a foot
-than to advance only an inch.""
+than to advance only an inch."
 This is called
 being flexible while advancing,
 pushing back without using force,
@@ -1326,10 +1326,10 @@ Everyone knows that the soft and yielding
 overcomes the rigid and hard,
 but few can put this knowledge into practice.
 Therefore the Master says:
-""Only he who is the lowest servant of the kingdom,
+"Only he who is the lowest servant of the kingdom,
 is worthy to become its ruler.
 He who is willing tackle the most unpleasant tasks,
-is the best ruler in the world.""
+is the best ruler in the world."
 True sayings seem contradictory.`,
   },
   {

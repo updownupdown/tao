@@ -69,7 +69,7 @@ The Sage attends to the inner and not to the outer; he puts away the objective a
   },
   {
     chapter: 13,
-    content: `A Sage has said: ""He who can take upon himself the nation's shame is fit to be lord of the land. He who can take upon himself the nation's calamities is fit to be ruler over the Empire.""
+    content: `A Sage has said: "He who can take upon himself the nation's shame is fit to be lord of the land. He who can take upon himself the nation's calamities is fit to be ruler over the Empire."
 He who respects the State as his own person is fit to govern it. He who loves the State as his own body is fit to be entrusted with it.`,
   },
   {
@@ -95,7 +95,7 @@ All things alike do their work, and then we see them subside. When they have rea
     chapter: 17,
     content: `In the highest antiquity, the people did not know that they had rulers. In the next age they loved and praised them. In the next, they feared them. In the next, they despised them.
 He who has not faith in others shall find no faith in them.
-How cautious is the Sage, how sparing of his words! When this task is accomplished and affairs are prosperous, the people all say: ""We have come to be as we are, naturally and of ourselves.`,
+How cautious is the Sage, how sparing of his words! When this task is accomplished and affairs are prosperous, the people all say: "We have come to be as we are, naturally and of ourselves.`,
   },
   {
     chapter: 18,
@@ -215,7 +215,7 @@ Therefore the truly great man takes his stand upon what is solid, and not upon w
   },
   {
     chapter: 39,
-    content: `He who is great must make humility his base. He who is high must make lowliness his foundation. Thus, princes and kings in speaking of themselves use the terms ""lonely,"" ""friendless,"" ""of small account."" Is not this making humility their base?
+    content: `He who is great must make humility his base. He who is high must make lowliness his foundation. Thus, princes and kings in speaking of themselves use the terms "lonely," "friendless," "of small account." Is not this making humility their base?
 Do not wish to be rare like jade, or common like stone.`,
   },
   {
@@ -234,8 +234,8 @@ Tao lies hid and cannot be named, yet it has the power of transmuting and perfec
   {
     chapter: 42,
     content: `Tao produced Unity; Unity produced Duality; Duality produced Trinity; and Trinity produced all existing objects.) These myriad objects leave darkness behind them and embrace the light, being harmonised by the breath of Vacancy.
-He who is great must make humility his base. He who is high must make lowliness his foundation. Thus, princes and kings in speaking of themselves use the terms ""lonely,"" ""friendless,"" ""of small account."" Is not this making humility their base?
-Thus it is that ""Some things are increased by being diminished, others are diminished by being increased."" What others have taught, I also teach; verily, I will make it the root of my teaching.`,
+He who is great must make humility his base. He who is high must make lowliness his foundation. Thus, princes and kings in speaking of themselves use the terms "lonely," "friendless," "of small account." Is not this making humility their base?
+Thus it is that "Some things are increased by being diminished, others are diminished by being increased." What others have taught, I also teach; verily, I will make it the root of my teaching.`,
   },
   {
     chapter: 43,
@@ -315,7 +315,7 @@ Things wax strong and then decay. This is the contrary of Tao. What is contrary 
     chapter: 57,
     content: `Use uprightness in ruling a State; employ stratagems in waging war; practise non-interference in order to win the Empire. Now this is how I know what I lay down:—
 As restrictions and prohibitions are multiplied in the Empire, the people grow poorer and poorer. When the people are subjected to overmuch government, the land is thrown into confusion. When the people are skilled in many cunning arts, strange are the objects of luxury that appear.
-The greater the number of laws and enactments, the more thieves and robbers there will be. Therefore the Sage says: ""So long as I do nothing, the people will work out their own reformation. So long as I love calm, the people will right themselves. If only I keep from meddling, the people will grow rich. If only I am free from desire, the people will come naturally back to simplicity.`,
+The greater the number of laws and enactments, the more thieves and robbers there will be. Therefore the Sage says: "So long as I do nothing, the people will work out their own reformation. So long as I love calm, the people will right themselves. If only I keep from meddling, the people will grow rich. If only I am free from desire, the people will come naturally back to simplicity.`,
   },
   {
     chapter: 58,
@@ -386,7 +386,7 @@ Gentleness brings victory to him who attacks, and safety to him who defends. Tho
   },
   {
     chapter: 69,
-    content: `A certain military commander used to say: ""I dare not act the host; I prefer to play the guest. I dare not advance an inch; I prefer to retreat a foot.""
+    content: `A certain military commander used to say: "I dare not act the host; I prefer to play the guest. I dare not advance an inch; I prefer to retreat a foot."
 
 
 There is no greater calamity than lightly engaging in war. Lightly to engage in war is to risk the loss of our treasure.
@@ -439,7 +439,7 @@ The Sage expects no recognition for what he does; he achieves merit but does not
     chapter: 78,
     content: `There is nothing in the world more soft and weak than water, yet for attacking things that are hard and strong there is nothing that surpasses it, nothing that can take its place.
 The soft overcomes the hard; the weak overcomes the strong. There is no one in the world but knows this truth, and no one who can put it into practice.
-A Sage has said: ""He who can take upon himself the nation's shame is fit to be lord of the land. He who can take upon himself the nation's calamities is fit to be ruler over the Empire.""
+A Sage has said: "He who can take upon himself the nation's shame is fit to be lord of the land. He who can take upon himself the nation's calamities is fit to be ruler over the Empire."
 The truest sayings are paradoxical.`,
   },
   {

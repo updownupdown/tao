@@ -65,9 +65,9 @@ Symbols!'`,
   {
     chapter: 6,
     content: `The Valley Spirit never dies-
-Id is called ""ANIMA; our Mystical Femininity.""
+Id is called "ANIMA; our Mystical Femininity."
 The Portal of the Mystical Female is called
-""The Cave Of Impressions.""
+"The Cave Of Impressions."
 Like gossamer, Id is seemingly insubstantial;
 yet never consumed through use.`,
   },
@@ -169,9 +169,9 @@ Concerning your Unity:
 It's height is not 'distant;'
 it's depth is not 'blurred.'
 Extended infinitely, it merges with NOTHING PERSONAL.
-This is ""the Form of the formless:""
+This is "the Form of the formless:"
 the 'business' that is Non-Personal.
-This is ""Disembodied Form,"" or YOUR SPIRITUAL IDENTITY.
+This is "Disembodied Form," or YOUR SPIRITUAL IDENTITY.
 Looking backwards, you cannot see it's beginnings.
 Looking forwards, you cannot see where it leads.
 Adhering to the Business of Today,
@@ -230,7 +230,7 @@ he is not trustworthy.
 But, if carefully he measures his words,
 when his work is done and his affairs completed,
 his subjects will say,
-""this is like being left to ourselves.""`,
+"this is like being left to ourselves."`,
   },
   {
     chapter: 18,
@@ -246,12 +246,12 @@ there arose 'upright ministers!'`,
   },
   {
     chapter: 19,
-    content: `Such ideas as ""Abolish Sagehood and all other Cleverness,
+    content: `Such ideas as "Abolish Sagehood and all other Cleverness,
 and the people will benefit a hundredfold;
 Abolish humaneness and forbid any reference to Righteousness,
 and the people will again be filial and kind;
 Abolish 'politics' and abandon profit,
-and bandits and thieves will be no more""..
+and bandits and thieves will be no more"..
 Are 'prime principles' inadequate as a civilized doctrine.
 Let this be added to them:
 Celebrate the 'plain-ness' of Gossamer;
@@ -263,7 +263,7 @@ and there will be nothing left to worry about.`,
   },
   {
     chapter: 20,
-    content: `Between ""Oh, Certainly!,"" and ""Definitely Not;""
+    content: `Between "Oh, Certainly!," and "Definitely Not;"
 how much difference is there?
 Between beauty and ugliness, how great is the distinction?
 One who is feared cannot but be fearful, themself.
@@ -357,7 +357,7 @@ THOU art Great.
 Heaven is Great.
 Earth is Great.
 The King, too, is Great.
-Within our Cosmos, there are Four ""Greats,""
+Within our Cosmos, there are Four "Greats,"
 and the King is one of them.
 Humanity patterns itself after IN, the Earth.
 Earth patterns itself after ANKH, Heaven.
@@ -504,7 +504,7 @@ they will rest in safety and peace;
 music and fine food will make the passerby halt.
 Therefore, when THOU art expressed in mere words,
 people say 'how bland and tasteless it is!'
-""We look for it, but there is not enough to be seen!""
+"We look for it, but there is not enough to be seen!"
 We listen for it, but there is not enough to be heard.'
 Yet, when put to use, it is inexhaustible!`,
   },
@@ -590,7 +590,7 @@ When a 'common' person hears of DEI,
 they laugh out loud.
 If they did not laugh, it could not be DEI!
 There is a series of old sayings, that go;
-""The bright Path seems dim.
+"The bright Path seems dim.
 The forward Path seems backwards.
 The level Path seems bumpy.
 Virtuosity seems like a depression.
@@ -602,7 +602,7 @@ The great square has no corners.
 The great vessel is never completed.
 The great note sounds muted.
 The great Image is formless.
-The Path is hidden, and nameless.""
+The Path is hidden, and nameless."
 Indeed, this Path alone is good at it's beginning and at it's end.`,
   },
   {
@@ -626,7 +626,7 @@ Things may be diminished by being increased,
 or increased by being diminished.
 Therefore, that which people teach,
 after some reflection, I also teach people.
-They say, ""A tyrant does not die a natural death.""
+They say, "A tyrant does not die a natural death."
 I take that as my Guide.`,
   },
   {
@@ -756,7 +756,7 @@ protects them.
 It gives birth but does not 'claim' them;
 acts but does not 'intend;'
 rears but does not 'control.'
-This is ""Mysterious DEI-ty.""`,
+This is "Mysterious DEI-ty."`,
   },
   {
     chapter: 52,
@@ -773,7 +773,7 @@ Seeing what is small is called 'insight.'
 Abiding in serenity is 'strength.'
 Use ANKH your light to return to 'insight.'
 Be not an inheritor of personal calamity!
-This is ""remaining constant.""`,
+This is "remaining constant."`,
   },
   {
     chapter: 53,
@@ -838,7 +838,7 @@ diffuses their light;
 mingles with dust;
 files away their sharp edges and
 unravels their tangles
-HAS ""MYSTICAL SELF-IDENTITY.""
+HAS "MYSTICAL SELF-IDENTITY."
 Because of it,
 neither can one be fully 'intimate' with them
 nor can one remain distant from them;
@@ -864,7 +864,7 @@ the stranger the anomalies that spring up.
 The more laws there are in the land
 the more bandits and thieves.
 Therefore, Sages say:
-""I Do Nothing Much Personally
+"I Do Nothing Much Personally
 yet the people transform themselves.
 I am fond of stillness
 yet the people correct their own ways.
@@ -872,7 +872,7 @@ I do not interfere in affairs
 yet the people enrich themselves.
 I desire not to 'desire' it
 yet the people of their own accord
-are become as simple as un-hewn logs.""`,
+are become as simple as un-hewn logs."`,
   },
   {
     chapter: 58,
@@ -910,8 +910,8 @@ If no one knows what you are capable of,
 you may have your Kingdom.
 Being the Mother of a Kingdom,
 one can long endure.
-This is called ""planting your roots firm and deep,
-the Path of long life and lasting vision.""`,
+This is called "planting your roots firm and deep,
+the Path of long life and lasting vision."`,
   },
   {
     chapter: 60,
@@ -959,8 +959,8 @@ it would be better for them to sit down
 and make progress in THIS!
 Why did the ancients value THIS so highly?
 Did they not say;
-""Seek and ye shall find;
-Repent and thou shalt be forgiven""?
+"Seek and ye shall find;
+Repent and thou shalt be forgiven"?
 Therefore THIS is valued by all under heaven.`,
   },
   {
@@ -1025,7 +1025,7 @@ The people are hard to 'rule' if they are too 'sophisticated.'
 Therefore, ruling a state through 'information' actually weakens the state;
 ruling a state through natural simplicity brings DEI-ty into the state.
 One who is always mindful of these two types grasps a great paradigm;
-mindfulness of this paradigm is ""mystical virtue.""
+mindfulness of this paradigm is "mystical virtue."
 Deep and far runs this Mystical Virtue!
 It runs counter to worldly things..  until they reach the great Sea!`,
   },
@@ -1106,18 +1106,18 @@ it surrounds with a bulwark of compassion.`,
 A good fighter does not anger.
 A good conqueror does not dislike his enemy.
 One who is good at employing others puts themself below them.
-This is called ""the virtue of non competitiveness.""
-This is called ""utilizing others.""
-This is called ""parity with heaven,""
+This is called "the virtue of non competitiveness."
+This is called "utilizing others."
+This is called "parity with heaven,"
 -the pinnacle of the Ancient Masters.`,
   },
   {
     chapter: 71,
     content: `Strategists have a saying:
-""I dare not be the host,
+"I dare not be the host,
 but would rather be a guest!
 I advance not an inch,
-but retreat a foot.""
+but retreat a foot."
 This is called
 Marching out of file;
 Bearing nonexistent arms;
@@ -1254,7 +1254,7 @@ This defeat of the hard by the soft, the strong by the weak-
 this is known to everyone in the world,
 yet nobody actually practices it.
 Therefore Sages say:
-""One who bears abuse directed against the state
+"One who bears abuse directed against the state
 is called 'Lord of the altars of the gods of soil and grain;'
 One who bears the misfortunes of the state
 is called the 'King of all under Heaven.'

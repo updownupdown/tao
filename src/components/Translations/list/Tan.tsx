@@ -1,9 +1,9 @@
 export const text = [
   {
     chapter: 1,
-    content: `""Dao / Tao / The Ultimate / Absolute indefinite"" that can be asserted in words
+    content: `"Dao / Tao / The Ultimate / Absolute indefinite" that can be asserted in words
 Not the absolute Dao-in-itself
-""Phenomenon"" that can be confined in names
+"Phenomenon" that can be confined in names
 Not the absolute phenomenon-in-itself
 Nothingness
 Named beginning of universe
@@ -128,7 +128,7 @@ Way of nature`,
     chapter: 10,
     content: `Embrace the one and only Dao
 With entire heart and soulCan you keep it without going astray
-Move ""Chi"" in your body with extreme tenderness
+Move "Chi" in your body with extreme tenderness
 Can you be like a baby
 Clear your mind off ideologies
 Probe aroundCan it be flawless
@@ -284,7 +284,7 @@ Begets no trustworthy
 Be at ease
 Treasure your words
 After all achievements
-Let people say""We are like this naturally.""`,
+Let people say"We are like this naturally."`,
   },
   {
     chapter: 18,
@@ -379,7 +379,7 @@ No arrogant
 Thus sustain
 No rivalry
 No rival in the world
-How can the good old principle of ""defect makes perfect""
+How can the good old principle of "defect makes perfect"
 Be just empty talk
 Have faith in it wholeheartedly`,
   },
@@ -394,7 +394,7 @@ Heaven and earth
 Even the heaven and earth last not
 How can a human
 Thus
-The taoist operatorHas Dao-like mannerOne who has the DeHas De-like mannerOne who loses bothHas loser-like mannerThose identify with the DaoThe Dao is glad to have themThose identify with the DeThe De is glad to have themThose who lose bothThe ""loser"" is glad to have themLack of truthfulnessBegets no trustworthy`,
+The taoist operatorHas Dao-like mannerOne who has the DeHas De-like mannerOne who loses bothHas loser-like mannerThose identify with the DaoThe Dao is glad to have themThose identify with the DeThe De is glad to have themThose who lose bothThe "loser" is glad to have themLack of truthfulnessBegets no trustworthy`,
   },
   {
     chapter: 24,
@@ -471,12 +471,12 @@ So to speak`,
   },
   {
     chapter: 28,
-    content: `Know its ""masculine""
-Hold on to ""feminine""Be conjunction of the world
+    content: `Know its "masculine"
+Hold on to "feminine"Be conjunction of the world
 Be the conjunction of the world
 Conform to De without deviationRevert to natural state of infant
-Know its ""white""
-Hold on to its ""black""Be a paragon of the world
+Know its "white"
+Hold on to its "black"Be a paragon of the world
 Abide by The De constantly without error
 Return to The Eternal Dao
 Know its grace
@@ -493,7 +493,7 @@ Reductionistic not`,
   {
     chapter: 29,
     content: `Generals who wish to seize power
-And do something ""worthwhile""
+And do something "worthwhile"
 I reckon they run out of alternatives
 Power is like magical weapon
 Shall not act upon
@@ -667,9 +667,9 @@ The world will self-adjust`,
   {
     chapter: 38,
     content: `The best De
-Does not look like ""De""Thus be ""Deistic""
+Does not look like "De"Thus be "Deistic"
 The inferior De
-The look of ""De""Yet ""Deistic"" not
+The look of "De"Yet "Deistic" not
 The best De
 Acts in nothingnessAchieves nothing
 The inferior De
@@ -865,12 +865,12 @@ The good
 I treat him good
 The No-good
 I also treat him good
-""De""-ify good
+"De"-ify good
 The faithful
 I treat him with faithfulness
 Unfaithful
 I also treat him with faithfulness
-""De""-ify faithfulness
+"De"-ify faithfulness
 In the world
 The ideal political leader seems pulling in his hornsDeal with the worldHeart in nothingness
 People observe with ears and eyes
@@ -1202,9 +1202,9 @@ That none of the world can fight you`,
     content: `The people commented
 Dao I spoke ofImmeasurableSeems too good to be true
 As Dao
-ImmeasurableThus be not as ""good"" as one can imagine
+ImmeasurableThus be not as "good" as one can imagine
 If Dao
-As ""good"" as one can imagineSomething too trivial to mention long ago
+As "good" as one can imagineSomething too trivial to mention long ago
 I have three treasures that I keep dearly
 First
 Be kind

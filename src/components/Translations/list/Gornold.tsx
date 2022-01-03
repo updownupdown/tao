@@ -163,7 +163,7 @@ In the third age they feared them,
 In the fourth age they despised them.
 Where faith is lacking it does not inspire confidence.
 How careful were they in their expressions!
-When they had done a good thing they would say, ""How very natural we are!""`,
+When they had done a good thing they would say, "How very natural we are!"`,
   },
   {
     chapter: 18,
@@ -221,7 +221,7 @@ He is not egotistic, and therefore he is praised.
 He is not vain, therefore he is esteemed.
 He is not haughty, and therefore he is honoured.
 And because he does not compete with others, no man is his enemy.
-The ancient maxim, ""Whosoever adapteth himself shall be preserved to the end,"" verily it is no idle saying.
+The ancient maxim, "Whosoever adapteth himself shall be preserved to the end," verily it is no idle saying.
 Without doubt he shall go back to his Home in peace.`,
   },
   {
@@ -431,10 +431,10 @@ But for the cause of their plenitude the valleys would be in danger of sterility
 But for the cause of their vitality all creation would be in danger of destruction.
 But for the cause of their honour and greatness princes and kings would be in danger of an overthrow.
 Herein we see how honour is derived from that which is without distinction; and how greatness rests upon, and is sustained by, that which is insignificant.
-Hence do princes and kings call themselves ""orphans,"" ""solitary men,"" and ""chariots without wheels.""
+Hence do princes and kings call themselves "orphans," "solitary men," and "chariots without wheels."
 Do they not thereby acknowledge their authority to be vested in, and supported by, their superiors?
 Who can deny it?
-Surely ""a chariot without wheels"" is no chariot at all!
+Surely "a chariot without wheels" is no chariot at all!
 It is as hard for a man to be isolated like a single gem as to be lost in the crowd like a common pebble.`,
   },
   {
@@ -770,7 +770,7 @@ This is the imitation of Heaven, and this was the highest aim of the ancients.`,
   },
   {
     chapter: 69,
-    content: `A great warrior has said, ""I dare not be the host, I would rather be the guest; I dare not advance an inch, I would rather retire a foot.""
+    content: `A great warrior has said, "I dare not be the host, I would rather be the guest; I dare not advance an inch, I would rather retire a foot."
 Now this I call filling in without marshalling the ranks; baring the arms without preparing to fight; grasping the sword without unsheathing it; and advancing upon the enemy without coming into conflict.
 There is nothing so unfortunate as entering lightly into battle.
 For in doing so we are in danger of losing that which is most precious.

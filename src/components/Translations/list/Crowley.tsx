@@ -149,7 +149,7 @@ These new methods despised the olden Way, inventing fine names to disguise their
   },
   {
     chapter: 20,
-    content: `To forget learning is to end trouble. The smallest difference in words, such as ""yes"" and ""yea"", can make endless controversy for the scholar. Fearful indeed is death, since all men fear it; but the abyss of questionings, shoreless and bottomless, is worse!
+    content: `To forget learning is to end trouble. The smallest difference in words, such as "yes" and "yea", can make endless controversy for the scholar. Fearful indeed is death, since all men fear it; but the abyss of questionings, shoreless and bottomless, is worse!
 Consider the profane man, how he preeneth, as if at feast, or gazing upon Spring from a tower! But as for me, I am as one who yawneth, without any trace of desire. I am like a babe before its first smile. I appear sad and forlorn, like a man homeless. The profane man hath his need filled, ay, and more also. For me, I seem to have lost all I had. My mind is as it were stupefied; it hath no definite shape. The profane man looketh lively and keen-witted; I alone appear blank in my mind. They seem eagerly critical; I appear careless and without perception. I seem to be as one adrift upon the sea, with  no thought of an harbor. The profane have each one his definite course of action; I alone appear useless and uncomprehending, like a man from the border. Yea, thus I differ from all other men: but my jewel is the All-Mother! `,
   },
   {
@@ -160,7 +160,7 @@ Consider the profane man, how he preeneth, as if at feast, or gazing upon Spring
     chapter: 22,
     content: `The part becometh the whole. The curve becometh straight; the void becometh full; the old becometh new. He who desireth little accomplisheth his Will with ease; who desireth many things becometh distracted.
 Therefore, the sage concentrateth upon one Will, and it is as a light to the whole world. Hiding himself, he shineth; withdrawing himself, he attracteth notice; humbling himself, he is exalted; dissatisfied with himself, he gaineth force to achieve his Will. Because he striveth not, no man may contend against him.
-That is no idle saw of the men of old; ""The part becometh the whole""; it is the Canon of Perfection. `,
+That is no idle saw of the men of old; "The part becometh the whole"; it is the Canon of Perfection. `,
   },
   {
     chapter: 23,
@@ -265,7 +265,7 @@ So then the Tao-Man holdeth to Mass, and avoideth Motion; he is attached to the 
     chapter: 39,
     content: `These things have possessed the Tao from the beginning: Heaven, clear and shining; Earth, steady and easy; Spirits, mighty in Magick; Vehicles, overflowing with Joy; all that hath life; and the rulers of men. All these derive their essence from the Tao.
 Without the Tao, Heaven would dissolve Earth disrupt, Spirits become impotent; Vehicles empty; living things would perish and rulers lose their power.
-The root of grandeur is humility, and the strength of exaltation in its base. Thus rulers speak of themselves as ""Fatherless,"" ""Virtueless,' ""Unworthy,"" proclaiming by this that their Glory is in their shame. So also the virtue of a Chariot is not any of the parts of a Chariot, if they be numbered. They do not seek to appear fine like jade, but inconspicuous like common stone. `,
+The root of grandeur is humility, and the strength of exaltation in its base. Thus rulers speak of themselves as "Fatherless," "Virtueless,' "Unworthy," proclaiming by this that their Glory is in their shame. So also the virtue of a Chariot is not any of the parts of a Chariot, if they be numbered. They do not seek to appear fine like jade, but inconspicuous like common stone. `,
   },
   {
     chapter: 40,
@@ -454,7 +454,7 @@ Gentleness bringeth victory in fight; and holdeth its ground with assurance. Hea
   },
   {
     chapter: 69,
-    content: `A great strategist saith: ""I dare not take the offensive. I prefer the defensive. I dare not advance an inch; I prefer to retreat a foot."" Place therefore the army where there is no army; prepare for action where there is no engagement; strike where there is no conflict; advance against the enemy where the enemy is not.
+    content: `A great strategist saith: "I dare not take the offensive. I prefer the defensive. I dare not advance an inch; I prefer to retreat a foot." Place therefore the army where there is no army; prepare for action where there is no engagement; strike where there is no conflict; advance against the enemy where the enemy is not.
 There is no error so great as to engage in battle without sufficient force. To do so is to risk losing the gentleness which is beyond price. Thus when the lines actually engage, he who regretteth the necessity is the victor. `,
   },
   {
@@ -509,7 +509,7 @@ So the Wise Man acteth without lust of result; achieveth and boasteth not; he wi
     chapter: 78,
     content: `Nothing in the world is more elastic and yielding than water; yet it is preeminent to dissolve things rigid and resistant; there is nothing which can match it.
 All men know that the soft overcometh the hard, and the weak conquereth the strong; but none are able to use this law in action.
-A Wise Man hath said: ""He that taketh on the burden of the state is a demigod worthy of sacrificial worship; and the true King of a people is he that undertaketh the weight of their sorrows.""
+A Wise Man hath said: "He that taketh on the burden of the state is a demigod worthy of sacrificial worship; and the true King of a people is he that undertaketh the weight of their sorrows."
 Truth appeareth paradox. `,
   },
   {

@@ -248,7 +248,7 @@ And lesser still, despise.
 So tenderly those great ones wrought
 The service of the throne;
 The hundred families each thought
-""We rule ourselves alone.""`,
+"We rule ourselves alone."`,
   },
   {
     chapter: 18,
@@ -470,9 +470,9 @@ And mold it as they choose,
 May mar, indeed, but never make;
 May take, but ever lose.
 This has been said of humankind:
-""Some humble, others bold,
+"Some humble, others bold,
 Some strong, some weak, cruel or kind,
-Some warm, and others cold.""
+Some warm, and others cold."
 Who may attempt to rule, and sway
 Into a common cause,
 Save he who in the Godlike way
@@ -1135,16 +1135,16 @@ And does not interfere.`,
     chapter: 65,
     content: `The ancient ones who ruled of yore,
 And knew whereof they spoke,
-Said: ""Do not cast the sacred lore
+Said: "Do not cast the sacred lore
 Among the common folk.
-""Much knowledge will corrupt the heart,
+"Much knowledge will corrupt the heart,
 When partly understood,
 And so the people grow too smart,
 But neither wise nor good.
-""Ruling with smartness is a curse,
+"Ruling with smartness is a curse,
 He who would serve and bless
 His country's people, might do worse
-Than just to rule them less.""
+Than just to rule them less."
 Who rules according to this plan
 Has virtue most profound;
 Modeling on the holy man,
@@ -1210,9 +1210,9 @@ The worth of every man.`,
   {
     chapter: 69,
     content: `A famous general once observed:
-""Act not the host in war,
+"Act not the host in war,
 But act the guest, and be reserved;
-Accomplish, then withdraw.""
+Accomplish, then withdraw."
 Who dares to hold his foemen light,
 Commits the worst of sins;
 For when matched armies meet and fight,
