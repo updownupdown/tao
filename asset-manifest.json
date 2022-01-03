@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tao/static/css/main.44bd79c8.css",
-    "main.js": "/tao/static/js/main.3a567346.js",
+    "main.js": "/tao/static/js/main.dbcf9042.js",
     "static/js/787.2f4ecebc.chunk.js": "/tao/static/js/787.2f4ecebc.chunk.js",
     "index.html": "/tao/index.html",
     "main.44bd79c8.css.map": "/tao/static/css/main.44bd79c8.css.map",
-    "main.3a567346.js.map": "/tao/static/js/main.3a567346.js.map",
+    "main.dbcf9042.js.map": "/tao/static/js/main.dbcf9042.js.map",
     "787.2f4ecebc.chunk.js.map": "/tao/static/js/787.2f4ecebc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44bd79c8.css",
-    "static/js/main.3a567346.js"
+    "static/js/main.dbcf9042.js"
   ]
 }
